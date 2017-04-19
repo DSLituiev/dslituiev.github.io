@@ -25,3 +25,6 @@ site.url: {{ site.url }}
 
 
 <iframe src="{{ site.url }}/img/autoenc_scatter.html" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+
+Here is the scatterplot
