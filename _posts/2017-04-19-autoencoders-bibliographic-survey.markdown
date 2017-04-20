@@ -2,22 +2,14 @@
 layout: post
 title:  "Autoencoders: a bibliographic survey"
 date:   2017-04-19 11:39:16 -0700
-categories: jekyll update
+categories: deep learning
 ---
-<!-- _includes/base.html -->
-{% assign base = '' %}
-{% assign depth = page.url | split: '/' | size | minus: 1 %}
-{% if    depth <= 1 %}{% assign base = '.' %}
-{% elsif depth == 2 %}{% assign base = '..' %}
-{% elsif depth == 3 %}{% assign base = '../..' %}
-{% elsif depth == 4 %}{% assign base = '../../..' %}{% endif %}
-
 
 Recently I was preparing for [a lecture on autoencoders](https://github.com/DSLituiev/teaching/blob/master/autoencoders/autoencoders.md) and I asked myself what is the relevant background literature one needs to read to have a general overview of the topic.
 The [Ian Goodfellow's and colleagues' book](http://www.deeplearningbook.org/) came to my mind first. 
 It is a good book, still books can be biased due to authors' research preferences.
 
-An unbiased approach would be to look at bibliographic data. I went through Google Scholar and Microsoft Academic Knowledge base to get a list of highly cited papers. Below are results,.
+An unbiased approach would be to look at bibliographic data. I went through Google Scholar and Microsoft Academic Knowledge base to get a list of highly cited papers. Below I show some results using Google Scholar, as it has a biggest data base. 
 
 
 ### a clickable `Citation` ~ `Year` plot for Autoencoder-related papers
