@@ -11,7 +11,9 @@ It is a good book, still books can be biased due to authors' research preference
 
 An unbiased approach would be to look at bibliographic data. I went through Google Scholar and Microsoft Academic Knowledge base to get a list of highly cited papers. Below I show some results using Google Scholar, as it has a biggest data base.
 
-This first-order analysis though not looking into clustering of papers or applied (out-of the group) or fundamental (within group) citations is still a useful tool to get a general overview of the field.
+This first-order analysis is a useful tool to get a general overview of the field.
+
+Next steps can be to look into clustering of papers and compare applied vs fundamental (out-of vs within group) citations.
 
 
 ### a clickable `Citation` ~ `Year` plot for Autoencoder-related papers
