@@ -1,0 +1,938 @@
+num_citations,title,authors,year,url
+4870,Reducing the dimensionality of data with neural networks,GE Hinton & RR Salakhutdinov,2006,http://science.sciencemag.org/content/313/5786/504.short
+1481,Extracting and composing robust features with denoising autoencoders,P Vincent et al.,2008,http://dl.acm.org/citation.cfm?id=1390294
+1373,Spectral hashing,Y Weiss et al.,2009,http://papers.nips.cc/paper/3383-spectral-hashing
+1153,Building high-level features using large scale unsupervised learning,QV Le,2013,http://ieeexplore.ieee.org/abstract/document/6639343/
+865,Kernel PCA and De-noising in feature spaces.,S Mika et al.,1998,https://papers.nips.cc/paper/1491-kernel-pca-and-de-noising-in-feature-spaces.pdf
+705,Auto-encoding variational bayes,DP Kingma & M Welling,2013,https://arxiv.org/abs/1312.6114
+676,Multimodal deep learning,A Khosla & J Nam,2011,http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Ngiam_399.pdf
+567,Multimodal learning with deep boltzmann machines,N Srivastava & RR Salakhutdinov,2012,http://papers.nips.cc/paper/4683-multimodal-learning-with-deep-boltzmann-machines
+564,Semi-supervised recursive autoencoders for predicting sentiment distributions,R Socher & EH Huang,2011,http://dl.acm.org/citation.cfm?id=2145450
+536,Domain adaptation for large-scale sentiment classification: A deep learning approach,X Glorot et al.,2011,http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Glorot_342.pdf
+438,Contractive auto-encoders: Explicit invariance during feature extraction,S Rifai & P Vincent,2011,http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Rifai_455.pdf
+404,Dynamic Pooling and Unfolding Recursive Autoencoders for Paraphrase Detection.,R Socher & EH Huang,2011,https://papers.nips.cc/paper/4204-dynamic-pooling-and-unfolding-recursive-autoencoders-for-paraphrase-detection.pdf
+373,"Autoencoders, minimum description length and Helmholtz free energy",RS Zemel,1994,https://papers.nips.cc/paper/798-autoencoders-minimum-description-length-and-helmholtz-free-energy.pdf
+357,On optimization methods for deep learning,A Coates,2011,http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Le_210.pdf
+304,Learning a Nonlinear Embedding by Preserving Class Neighbourhood Structure.,R Salakhutdinov & GE Hinton,2007,http://www.jmlr.org/proceedings/papers/v2/salakhutdinov07a/salakhutdinov07a.pdf
+304,A novelty detection approach to classification,N Japkowicz et al.,1995,http://www.ijcai.org/Proceedings/95-1/Papers/068.pdf
+224,Learning a deep compact image representation for visual tracking,N Wang & DY Yeung,2013,http://papers.nips.cc/paper/5192-learning-a-deep-compact-image-representation-for-visual-tracking
+224,Measuring invariances in deep networks,I Goodfellow et al.,2009,http://papers.nips.cc/paper/3790-measuring-invariances-in-deep-networks
+214,Stacked convolutional auto-encoders for hierarchical feature extraction,J Masci et al.,2011,http://www.springerlink.com/index/U47243T6702223K4.pdf
+208,The Difficulty of Training Deep Architectures and the Effect of Unsupervised Pre-Training.,D Erhan et al.,2009,http://www.jmlr.org/proceedings/papers/v5/erhan09a/erhan09a.pdf
+207,Sparse autoencoder,,2011,https://pdfs.semanticscholar.org/eb2f/e260af00818907fe82024203d8a5a1386777.pdf
+197,Marginalized denoising autoencoders for domain adaptation,M Chen et al.,2012,https://arxiv.org/abs/1206.4683
+169,Combining one-class classifiers,DMJ Tax & RPW Duin,2001,http://link.springer.com/10.1007/3-540-48219-9_30
+165,Binary coding of speech spectrograms using a deep auto-encoder.,L Deng et al.,2010,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.185.1908&rep=rep1&type=pdf
+158,Visualizing higher-layer features of a deep network,D Erhan et al.,2009,https://www.researchgate.net/profile/Aaron_Courville/publication/265022827_Visualizing_Higher-Layer_Features_of_a_Deep_Network/links/53ff82b00cf24c81027da530.pdf
+151,Robust detection of dynamic community structure in networks,DS Bassett & MA Porter,2013,http://aip.scitation.org/doi/abs/10.1063/1.4790830
+144,Representational learning with extreme learning machine for big data,GB Huang,2013,http://repository.umac.mo/bitstream/10692/2432/1/11166_0_MLELM_final.pdf
+139,Recurrent Neural Networks for Noise Reduction in Robust ASR.,AL Maas et al.,2012,http://ai.stanford.edu/~ang/papers-tofile/drnn_intrspch2012_final.pdf
+132,Coarse-to-fine auto-encoder networks (cfan) for real-time face alignment,J Zhang et al.,2014,http://link.springer.com/chapter/10.1007/978-3-319-10605-2_1
+129,Recognizing handwritten digits using mixtures of linear models,GE Hinton,1994,http://dl.acm.org/citation.cfm?id=2998813
+126,"Autoencoders, unsupervised learning, and deep architectures.",P Baldi,2012,http://www.jmlr.org/proceedings/papers/v27/baldi12a/baldi12a.pdf
+122,Using very deep autoencoders for content-based image retrieval.,A Krizhevsky & GE Hinton,2011,https://pdfs.semanticscholar.org/8808/0d28536f36588740737f3b7a1f6c1a409654.pdf
+120,Transforming auto-encoders,G Hinton et al.,2011,http://www.springerlink.com/index/BJ223882L483R160.pdf
+116,Auto-encoder bottleneck features using deep belief networks,TN Sainath & B Kingsbury,2012,http://ieeexplore.ieee.org/abstract/document/6288833/
+111,Unsupervised learning of visual representations using videos,X Wang & A Gupta,2015,http://www.cv-foundation.org/openaccess/content_iccv_2015/html/Wang_Unsupervised_Learning_of_ICCV_2015_paper.html
+110,Competition and multiple cause models,RS Zemel,1995,http://www.mitpressjournals.org/doi/abs/10.1162/neco.1995.7.3.565
+110,Extracting deep bottleneck features using stacked auto-encoders,J Gehring et al.,2013,http://ieeexplore.ieee.org/abstract/document/6638284/
+108,Speech enhancement based on deep denoising autoencoder.,Y Tsao et al.,2013,https://www.researchgate.net/profile/Yu_Tsao/publication/283600839_Speech_enhancement_based_on_deep_denoising_autoencoder/links/577b486108ae213761c9c7f8.pdf
+104,Deep belief networks,GE Hinton,2009,http://www.scholarpedia.org/article/Deep_belief_networks?pagewanted=all
+101,Provable Bounds for Learning Some Deep Representations.,S Arora et al.,2014,http://www.jmlr.org/proceedings/papers/v32/arora14.pdf
+101,Image compression using principal component neural networks,S Fiori,2001,http://www.sciencedirect.com/science/article/pii/S0262885601000427
+95,Stacked autoencoders for unsupervised feature learning and multiple organ detection in a pilot study using 4D patient data,HC Shin et al.,2013,http://ieeexplore.ieee.org/abstract/document/6399478/
+94,A connection between score matching and denoising autoencoders,P Vincent,2011,http://www.mitpressjournals.org/doi/abs/10.1162/neco_a_00142
+94,Models of habituation in infancy,D Mareschal,2002,http://www.sciencedirect.com/science/article/pii/S1364661302019265
+92,An autoencoder approach to learning bilingual word representations,SC AP et al.,2014,http://papers.nips.cc/paper/5270-an-autoencoder-approach-to-learning-bilingual-word-representations
+88,Missing data: A comparison of neural network and expectation maximisation techniques,FV Nelwamondo et al.,2007,https://arxiv.org/abs/0704.3474
+86,A hierarchical neural autoencoder for paragraphs and documents,J Li et al.,2015,https://arxiv.org/abs/1506.01057
+86,Feature learning for activity recognition in ubiquitous computing,T Plötz et al.,2011,https://openlab.ncl.ac.uk/publicweb/publications/IJCAI11-290.pdf
+85,Developments in probabilistic modelling with neural networks—ensemble learning,DJC MacKay,1995,http://link.springer.com/chapter/10.1007/978-1-4471-3087-1_37
+82,Handwritten digit recognition by adaptive-subspace self-organizing map (ASSOM),H Yan & MA Jabri,1999,http://ieeexplore.ieee.org/abstract/document/774267/
+82,Deep Learning Made Easier by Linear Transformations in Perceptrons.,T Raiko et al.,2012,http://www.jmlr.org/proceedings/papers/v22/raiko12/raiko12.pdf
+81,Higher order contractive auto-encoder,S Rifai et al.,2011,http://www.springerlink.com/index/Q6333007N3H50887.pdf
+78,Deep auto-encoder neural networks in reinforcement learning,S Lange & M Riedmiller,2010,http://ieeexplore.ieee.org/abstract/document/5596468/
+77,Learning Continuous Attractors in Recurrent Networks.,HS Seung,1997,https://papers.nips.cc/paper/1369-learning-continuous-attractors-in-recurrent-networks.pdf
+75,Nonlinear PCA: a new hierarchical approach.,M Scholz & R Vigário,2002,http://www.academia.edu/download/7301216/scholz_vigario_nlpca_esann2002.pdf
+69,Semi-supervised sequence learning,AM Dai & QV Le,2015,http://papers.nips.cc/paper/5949-semi-supervised-sequence-learning
+68,Sparse autoencoder-based feature transfer learning for speech emotion recognition,J Deng et al.,2013,http://ieeexplore.ieee.org/abstract/document/6681481/
+68,Cross-modal retrieval with correspondence autoencoder,F Feng,2014,http://dl.acm.org/citation.cfm?id=2654902
+67,Adaptive dropout for training deep neural networks,J Ba & B Frey,2013,http://papers.nips.cc/paper/5032-adaptive-dropout-for-training-deep-neural-networks
+65,"A deep learning architecture for image representation, visual interpretability and automated basal-cell carcinoma cancer detection",AA Cruz-Roa & A Madabhushi,2013,http://link.springer.com/chapter/10.1007/978-3-642-40763-5_50
+65,Ensemble learning and evidence maximization,DJC MacKay,1995,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.54.4083&rep=rep1&type=pdf
+64,Online multimodal deep similarity learning with application to image retrieval,SCH Hoi et al.,2013,http://dl.acm.org/citation.cfm?id=2502112
+61,Deep learning-based feature representation for AD/MCI classification,HI Suk & D Shen,2013,http://link.springer.com/chapter/10.1007/978-3-642-40763-5_72
+59,Deep maxout networks for low-resource speech recognition,Y Miao et al.,2013,http://ieeexplore.ieee.org/abstract/document/6707763/
+57,Pseudo-label: The simple and efficient semi-supervised learning method for deep neural networks,DH Lee,2013,https://www.kaggle.com/blobs/download/forum-message-attachment-files/746/pseudo_label_final.pdf
+57,How many clusters?: A YING-YANG machine based theory for a classical open problem in pattern recognition,L Xu,1996,http://ieeexplore.ieee.org/abstract/document/549130/
+57,Speech feature denoising and dereverberation via deep autoencoders for noisy reverberant speech recognition,X Feng et al.,2014,http://ieeexplore.ieee.org/abstract/document/6853900/
+55,On autoencoders and score matching for energy based models,K Swersky,2011,http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Swersky_622.pdf
+54,Towards deep neural network architectures robust to adversarial examples,S Gu,2014,https://arxiv.org/abs/1412.5068
+52,Autoencoder networks for HIV classification,T Marwala,2006,http://www.iisc.ernet.in/currsci/dec102006/1467.pdf
+52,Using deep learning to enhance cancer diagnosis and classification,R Fakoor & A Nazi,2013,http://matlabproject.ir/forms/files/392437.pdf
+50,Latent feature representation with stacked auto-encoder for AD/MCI diagnosis,HI Suk & D Shen,2015,http://link.springer.com/article/10.1007/s00429-013-0687-3
+50,Learning deep energy models,Z Chen & PW Koh,2011,http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Ngiam_557.pdf
+47,Conditional image generation with pixelcnn decoders,A van den Oord et al.,2016,http://papers.nips.cc/paper/6527-conditional-image-generation-with-pixelcnn-decoders
+46,Implicit learning in autoencoder novelty assessment,BB Thompson & RJ Marks,2002,http://ieeexplore.ieee.org/abstract/document/1007605/
+46,Autoextend: Extending word embeddings to embeddings for synsets and lexemes,S Rothe,2015,https://arxiv.org/abs/1507.01127
+45,Reverberant speech recognition based on denoising autoencoder.,,2013,https://wiki.inf.ed.ac.uk/twiki/pub/CSTR/ListenSemester1201314/IS130923.PDF
+44,Gradient-based learning of higher-order image features,R Memisevic,2011,http://ieeexplore.ieee.org/abstract/document/6126419/
+44,Diagnosing faults in power transformers with autoassociative neural networks and mean shift,S Lima,2012,http://ieeexplore.ieee.org/abstract/document/6176288/
+44,A recursive recurrent neural network for statistical machine translation,S Liu & N Yang,2014,https://www.microsoft.com/en-us/research/publication/a-recursive-recurrent-neural-network-for-statistical-machine-translation/
+44,Input reconstruction reliability estimation,,1993,https://papers.nips.cc/paper/631-input-reconstruction-reliability-estimation.pdf
+43,Multimodal deep autoencoder for human pose recovery,D Tao,2015,http://ieeexplore.ieee.org/abstract/document/7293666/
+43,The divergent autoencoder (DIVA) model of category learning,KJ Kurtz,2007,http://www.springerlink.com/index/P1210185V746NM0N.pdf
+43,Modeling infant speech sound discrimination using simple associative networks,D Mareschal,2001,http://www.tandfonline.com/doi/abs/10.1207/S15327078IN0201_2
+42,Classifying user environment for mobile applications using linear autoencoding of ambient audio,A Waibel,2005,http://ieeexplore.ieee.org/abstract/document/1416352/
+42,Deep networks for image retrieval on large-scale databases,R Lienhart,2008,http://dl.acm.org/citation.cfm?id=1459449
+42,Autoencoder-based unsupervised domain adaptation for speech emotion recognition,J Deng et al.,2014,http://ieeexplore.ieee.org/abstract/document/6817520/
+41,Learning Entity Representation for Entity Disambiguation.,S Liu & L Zhang,2013,http://www.aclweb.org/website/old_anthology/P/P13/P13-2.pdf#page=78
+40,Labels as features (not names) for infant categorization: A neurocomputational approach,J Mayor,2009,http://onlinelibrary.wiley.com/doi/10.1111/j.1551-6709.2009.01026.x/full
+40,Wiener filtering based speech enhancement with weighted denoising auto-encoder and noise classification,B Xia,2014,http://www.sciencedirect.com/science/article/pii/S0167639314000132
+39,Deep belief networks for real-time extraction of tongue contours from ultrasound during speech,I Fasel & J Berry,2010,http://ieeexplore.ieee.org/abstract/document/5597284/
+38,Oscillatory stability assessment of power systems using computational intelligence,,2005,http://duepublico.uni-duisburg-essen.de/servlets/DerivateServlet/Derivate-5634/Teeuwsen.pdf
+38,Identification of network modules by optimization of ratio association,S Boccaletti & D Marinazzo,2007,http://aip.scitation.org/doi/abs/10.1063/1.2732162
+37,Learning structured output representation using deep conditional generative models,K Sohn et al.,2015,http://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional-generative-models
+37,Stacked sparse autoencoder (SSAE) for nuclei detection on breast cancer histopathology images,J Xu & L Xiang,2016,http://ieeexplore.ieee.org/abstract/document/7163353/
+35,Early diagnosis of Alzheimer's disease with deep learning,S Liu et al.,2014,http://ieeexplore.ieee.org/abstract/document/6868045/
+35,Incentivizing exploration in reinforcement learning with deep predictive models,S Levine & P Abbeel,2015,https://arxiv.org/abs/1507.00814
+34,Visualizing and understanding neural models in nlp,J Li et al.,2015,https://arxiv.org/abs/1506.01066
+33,Conditional generative adversarial nets for convolutional face generation,J Gauthier,2014,https://pdfs.semanticscholar.org/42f6/f5454dda99d8989f9814989efd50fe807ee8.pdf
+33,Deep learning of scene-specific classifier for pedestrian detection,X Zeng et al.,2014,http://link.springer.com/chapter/10.1007/978-3-319-10578-9_31
+32,Discovering hidden factors of variation in deep networks,B Cheung & JA Livezey,2014,https://arxiv.org/abs/1412.6583
+32,Conditional random field autoencoders for unsupervised structured prediction,W Ammar et al.,2014,http://papers.nips.cc/paper/5344-inferring-sparse-representations-of-continuous-signals-with-continuous-orthogonal-matching-pursuit.pdf
+31,MADE: Masked Autoencoder for Distribution Estimation.,M Germain et al.,2015,http://www.jmlr.org/proceedings/papers/v37/germain15.pdf
+30,Deepshape: Deep learned shape descriptor for 3d shape matching and retrieval,J Xie et al.,2015,http://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Xie_DeepShape_Deep_Learned_2015_CVPR_paper.html
+30,Lung nodule classification using deep features in CT images,D Kumar et al.,2015,http://ieeexplore.ieee.org/abstract/document/7158331/
+29,Single sample face recognition via learning deep supervised autoencoders,S Gao et al.,2015,http://ieeexplore.ieee.org/abstract/document/7124463/
+29,Winner-take-all autoencoders,A Makhzani & BJ Frey,2015,http://papers.nips.cc/paper/5783-winner-take-all-autoencoders
+29,The IBM 2011 GALE Arabic speech transcription system,L Mangu et al.,2011,http://ieeexplore.ieee.org/abstract/document/6163943/
+28,Spatio-temporal video autoencoder with differentiable memory,V Patraucean et al.,2015,https://arxiv.org/abs/1511.06309
+28,Spatio-Temporal Convolutional Sparse Auto-Encoder for Sequence Classification.,M Baccouche et al.,2012,http://www.bmva.org/bmvc/2012/BMVC/paper124/paper124.pdf
+28,3D object retrieval with stacked local convolutional autoencoder,B Leng,2015,http://www.sciencedirect.com/science/article/pii/S0165168414004150
+28,The importance of starting blurry: Simulating improved basic-level category learning in infants due to weak visual acuity,RM French et al.,2002,https://pdfs.semanticscholar.org/be01/bb5b7782a64335f858de92d9dca33566a1bc.pdf
+28,Generating images with recurrent adversarial networks,DJ Im et al.,2016,https://arxiv.org/abs/1602.05110
+27,The IM Algorithm: A Variational Approach to Information Maximization.,,2003,https://papers.nips.cc/paper/2410-information-maximization-in-noisy-channels-a-variational-approach.pdf
+27,Neural network based multi-dimensional feature forecasting for bad data detection and feature restoration in power systems,,2006,http://ieeexplore.ieee.org/abstract/document/1709132/
+27,Large-scale learning of embeddings with reconstruction sampling,X Glorot et al.,2011,http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Dauphin_491.pdf
+27,On the contractive nature of autoencoders: Application to missing sensor restoration,BB Thompson & RJ Marks,2003,http://ieeexplore.ieee.org/abstract/document/1224051/
+26,Autorec: Autoencoders meet collaborative filtering,S Sedhain et al.,2015,http://dl.acm.org/citation.cfm?id=2742726
+26,Deep learning representation using autoencoder for 3D shape retrieval,Z Zhu et al.,2016,http://www.sciencedirect.com/science/article/pii/S0925231216301047
+26,Generalized autoencoder: A neural network framework for dimensionality reduction,Y Huang & L Wang,2014,http://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W15/html/Wang_Generalized_Autoencoder_A_2014_CVPR_paper.html
+25,Deep recurrent de-noising auto-encoder and blind de-reverberation for reverberated speech recognition,F Weninger et al.,2014,http://ieeexplore.ieee.org/abstract/document/6854478/
+25,Unsupervised neural network based feature extraction using weak top-down constraints,H Kamper et al.,2015,http://ieeexplore.ieee.org/abstract/document/7179087/
+24,Unsupervised learning of visual invariance with temporal coherence,WY Zou,2011,https://pdfs.semanticscholar.org/d435/6931e9b9e7fb5c9496e65c0d72c3541a6b3d.pdf
+24,Deep autoencoder neural networks for gene ontology annotation predictions,D Chicco et al.,2014,http://dl.acm.org/citation.cfm?id=2649442
+24,Learning a probabilistic latent space of object shapes via 3d generative-adversarial modeling,J Wu et al.,2016,http://papers.nips.cc/paper/6096-learning-a-probabilistic-latent-space-of-object-shapes-via-3d-generative-adversarial-modeling
+24,Reversing category exclusivities in infant perceptual categorization: Simulations and data,RM French et al.,2001,http://books.google.com/books?hl=en&lr=&id=mJAclUVF8jIC&oi=fnd&pg=PA307&dq=autoencoder&ots=eR1PbIN9M6&sig=Xqp-BifnGCLka-VRdmw8yKREKZE
+24,Saturating auto-encoders,R Goroshin & Y LeCun,2013,https://arxiv.org/abs/1301.3577
+23,Nonparametric guidance of autoencoder representations using label information,J Snoek et al.,2012,http://www.jmlr.org/papers/v13/snoek12a.html
+23,Ensemble deep learning for regression and time series forecasting,L Zhang & PN Suganthan,2014,http://ieeexplore.ieee.org/abstract/document/7015739/
+23,Fault-tolerant optimal neurocontrol for a static synchronous series compensator connected to a power network,W Qiao,2008,http://ieeexplore.ieee.org/abstract/document/4439783/
+22,Transfer learning for short-term wind speed prediction with deep neural networks,Q Hu,2016,http://www.sciencedirect.com/science/article/pii/S0960148115300574
+22,Continuous on-line identification of nonlinear plants in power systems with missing sensor measurements,W Qiao,2005,http://ieeexplore.ieee.org/abstract/document/1556141/
+22,Autoencoder for words,CY Liou,2014,http://www.sciencedirect.com/science/article/pii/S0925231214003658
+22,Relational Stacked Denoising Autoencoder for Tag Recommendation.,H Wang & DY Yeung,2015,http://www.wanghao.in/paper/AAAI15_RSDAE.pdf
+22,An auto-encoder based approach to unsupervised learning of subword units,L Badino et al.,2014,http://ieeexplore.ieee.org/abstract/document/6855085/
+22,New supervised multi layer feed forward neural network model to accelerate classification with high accuracy,,2009,http://www.academia.edu/download/41663575/New_Supervised_Multi_Layer_Feed_Forward_20160128-2842-90in5i.pdf
+22,K-sparse autoencoders,A Makhzani & B Frey,2013,https://arxiv.org/abs/1312.5663
+22,Improved preconditioner for hessian free optimization,O Chapelle & D Erhan,2011,http://www.chapelle.cc/olivier/pub/precond.pdf
+22,Predicting Alzheimer's disease: a neuroimaging study with 3D convolutional neural networks,,2015,https://arxiv.org/abs/1502.02506
+22,Active learning in self-organizing maps,H Ritter,1999,http://books.google.com/books?hl=en&lr=&id=JsRXtwWjJPsC&oi=fnd&pg=PA57&dq=autoencoder&ots=cjNzrP27BO&sig=BuWrBIFLCnEQGMY0-gYQhwt_f-0
+22,Predicting backbone Cα angles and dihedrals from protein sequences by stacked sparse auto‐encoder deep neural network,J Lyons et al.,2014,http://onlinelibrary.wiley.com/doi/10.1002/jcc.23718/full
+22,Unsupervised pos induction with word embeddings,W Ammar & C Dyer,2015,https://arxiv.org/abs/1503.06760
+22,From pixels to torques: Policy learning with deep dynamical models,N Wahlström et al.,2015,https://arxiv.org/abs/1502.02251
+21,Sequential constant size compressors for reinforcement learning,L Gisslén & M Luciw,2011,http://link.springer.com/10.1007%2F978-3-642-22887-2_4
+21,Who do i look like? determining parent-offspring resemblance via gated autoencoders,A Dehghan,2014,http://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Dehghan_Who_Do_I_2014_CVPR_paper.html
+21,New life for neural networks,GW Cottrell,2006,https://pdfs.semanticscholar.org/86a0/44e5ad180bd37877fa2241efa9c5252ee91e.pdf
+21,Towards an auto-associative topology state estimator,J Krstulovic,2013,http://ieeexplore.ieee.org/abstract/document/6416996/
+21,Hyperspectral image classification via contextual deep learning,,2015,http://link.springer.com/article/10.1186/s13640-015-0071-8
+20,Reducing overfitting in deep networks by decorrelating representations,M Cogswell et al.,2015,https://arxiv.org/abs/1511.06068
+20,Introducing shared-hidden-layer autoencoders for transfer learning and their application in acoustic emotion recognition,J Deng et al.,2014,http://ieeexplore.ieee.org/abstract/document/6854517/
+20,Fuzzy artmap and neural network approach to online processing of inputs with missing values,FV Nelwamondo & T Marwala,2007,https://arxiv.org/abs/0705.1031
+19,A feature learning based approach for automated fruit yield estimation,C Hung et al.,2015,http://link.springer.com/chapter/10.1007/978-3-319-07488-7_33
+19,On autoencoder scoring.,R Memisevic,2013,http://www.jmlr.org/proceedings/papers/v28/kamyshanska13.pdf
+19,Three ways to adapt a CTS recognizer to unseen reverberated speech in BUT system for the ASpIRE challenge,M Karafiát et al.,2015,
+19,Electric power system anomaly detection using neural networks,E Tronci,2004,http://www.springerlink.com/index/RNHJ3C31X0QHRER1.pdf
+19,Feature learning from incomplete EEG with denoising autoencoder,J Li et al.,2015,http://www.sciencedirect.com/science/article/pii/S0925231215004282
+18,Deep collaborative filtering via marginalized denoising auto-encoder,S Li et al.,2015,http://dl.acm.org/citation.cfm?id=2806527
+18,Genetic algorithms for evolving deep neural networks,,2014,http://dl.acm.org/citation.cfm?id=2602287
+18,Breast tissue segmentation and mammographic risk scoring using deep learning,M Nielsen & N Karssemeijer,2014,http://link.springer.com/chapter/10.1007/978-3-319-07887-8_13
+18,Continuous learning of human activity models using deep nets,M Hasan & AK Roy-Chowdhury,2014,http://link.springer.com/chapter/10.1007/978-3-319-10578-9_46
+17,Unsupervised feature learning and deep learning,,2013,https://www.csee.umbc.edu/courses/graduate/678/fall14/visionaudio.pdf
+17,Non-local auto-encoder with collaborative stabilization for image restoration,D Tao,2016,http://ieeexplore.ieee.org/abstract/document/7432028/
+17,Localized sparse code gradient in alzheimer's disease staging,S Liu et al.,2013,http://ieeexplore.ieee.org/abstract/document/6610769/
+17,Speech enhancement with weighted denoising auto-encoder.,B Xia,2013,http://lpp.ilpga.fr/PDF/IS130166/IS130166.PDF
+16,A comparison of neural network methods for unsupervised representation learning on the zero resource speech challenge.,D Renshaw et al.,2015,http://www.kamperh.com/papers/renshaw+kamper+jansen+goldwater_interspeech2015.pdf
+16,Deep extreme learning machine and its application in EEG classification,,2015,https://www.hindawi.com/journals/mpe/aa/129021/
+16,Learning multilingual word representations using a bag-of-words autoencoder,H Larochelle,2014,https://arxiv.org/abs/1401.1803
+16,The variational fair autoencoder,C Louizos et al.,2015,https://arxiv.org/abs/1511.00830
+16,A novel approach for automatic acoustic novelty detection using a denoising autoencoder with bidirectional lstm neural networks,E Marchi & F Eyben,2015,http://ieeexplore.ieee.org/abstract/document/7178320/
+16,Condition monitoring of HV bushings in the presence of missing data using evolutionary computing,FV Nelwamondo & T Marwala,2006,https://arxiv.org/abs/0705.2516
+16,The potential energy of an autoencoder,R Memisevic,2015,http://ieeexplore.ieee.org/abstract/document/6918504/
+15,Ensemble modeling of denoising autoencoder for speech spectrum restoration.,Y Tsao et al.,2014,http://193.6.4.39/~czap/letoltes/IS14/IS2014/PDF/AUTHOR/IS140700.PDF
+15,Auto-encoder-based shared mid-level visual dictionary learning for scene classification using very high resolution remote sensing images,J Han,2015,http://digital-library.theiet.org/content/journals/10.1049/iet-cvi.2014.0270
+15,Learning ordered representations with nested dropout,O Rippel et al.,2014,http://www.jmlr.org/proceedings/papers/v32/rippel14.html
+15,Stochastic gradient VB and the variational auto-encoder,DP Kingma & M Welling,2014,http://dpkingma.com/wordpress/wp-content/uploads/2014/10/iclr14_vae.pdf
+15,Modeling gender information for emotion recognition using denoising autoencoder,R Xia et al.,2014,http://ieeexplore.ieee.org/abstract/document/6853745/
+15,One-class classification as a novel method of ligand-based virtual screening: The case of glycogen synthase kinase 3β inhibitors,DI Osolodkin & II Baskin,2011,http://www.sciencedirect.com/science/article/pii/S0960894X11012959
+15,Unsupervised spectral–spatial feature learning with stacked sparse autoencoder for hyperspectral imagery classification,Y Li,2015,http://ieeexplore.ieee.org/abstract/document/7296592/
+14,Binding representational spaces of colors and emotions for creativity,A Augello et al.,2013,http://www.sciencedirect.com/science/article/pii/S2212683X13000406
+14,Deep Belief Networks for dimensionality reduction,AK Noulas & BJA Kröse,2008,http://dare.uva.nl/record/1/299995
+14,Characterization of tissue histopathology via predictive sparse decomposition and spatial pyramid matching,H Chang et al.,2013,http://link.springer.com/chapter/10.1007/978-3-642-40763-5_12
+14,Unseen noise estimation using separable deep auto encoder for speech enhancement,TF Zheng,2016,http://ieeexplore.ieee.org/abstract/document/7320993/
+14,Deep neural network-based bottleneck feature and denoising autoencoder-based dereverberation for distant-talking speaker identification,L Wang,2015,https://asmp.eurasipjournals.springeropen.com/articles/10.1186/s13636-015-0056-7
+14,A sparse auto-encoder-based deep neural network approach for induction motor faults classification,R Zhao et al.,2016,http://www.sciencedirect.com/science/article/pii/S0263224116300641
+14,Llnet: A deep autoencoder approach to natural low-light image enhancement,KG Lore et al.,2017,http://www.sciencedirect.com/science/article/pii/S003132031630125X
+14,Anomaly detection using autoencoders with nonlinear dimensionality reduction,,2014,http://dl.acm.org/citation.cfm?id=2689747
+14,Structured prediction of 3D human pose with deep neural networks,B Tekin et al.,2016,https://arxiv.org/abs/1605.05180
+14,Coupled deep autoencoder for single image super-resolution,J Yu,2017,http://ieeexplore.ieee.org/abstract/document/7339460/
+14,Enhanced wide area monitoring system,B Luitel & GK Venayagamoorthy,2010,http://ieeexplore.ieee.org/abstract/document/5434727/
+14,Speech emotion recognition using CNN,Z Huang & M Dong,2014,http://dl.acm.org/citation.cfm?id=2654984
+14,Unsupervised learning of depth and motion,K Konda & R Memisevic,2013,https://arxiv.org/abs/1312.3429
+13,Stochastic ratio matching of rbms for sparse high-dimensional inputs,Y Dauphin & Y Bengio,2013,http://papers.nips.cc/paper/5022-stochastic-ratio-matching-of-rbms-for-sparse-high-dimensional-inputs
+13,A learning technique for deep belief neural networks,V Golovko,2014,http://link.springer.com/10.1007/978-3-319-08201-1_13
+13,Procedural modeling using autoencoder networks,R Mech & LB Kara,2015,http://dl.acm.org/citation.cfm?id=2807448
+13,A bag of semantic words model for medical content-based retrieval,S Liu & W Cai,2013,http://rp-www.cs.usyd.edu.au/~tomc/selected-publications/MICCAI-2013-Workshop-MCBR-CDS-LCSPKF.pdf
+13,Missing sensors restoration for system control and diagnostics,RJ Marks,2003,http://ieeexplore.ieee.org/abstract/document/1234597/
+13,Using an autoencoder with deformable templates to discover features for automated speech recognition.,N Jaitly & GE Hinton,2013,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.369.2173&rep=rep1&type=pdf
+12,Filling in the gap: a general method using neural networks,,2010,http://ieeexplore.ieee.org/abstract/document/5738007/
+12,Learning semantic representation with neural networks for community question answering retrieval,W Wu,2016,http://www.sciencedirect.com/science/article/pii/S0950705115004207
+12,Deep learning network for blind image quality assessment,G Zhai & X Yang,2014,http://ieeexplore.ieee.org/abstract/document/7025102/
+12,On latent fingerprint minutiae extraction using stacked denoising sparse autoencoders,A Sankaran et al.,2014,http://ieeexplore.ieee.org/abstract/document/6996300/
+12,Sparse auto-encoder based feature learning for human body detection in depth image,SZ Su et al.,2015,http://www.sciencedirect.com/science/article/pii/S0165168414005052
+12,Real-time anomaly detection and localization in crowded scenes,M Sabokrou et al.,2015,http://www.cv-foundation.org/openaccess/content_cvpr_workshops_2015/W04/html/Sabokrou_Real-Time_Anomaly_Detection_2015_CVPR_paper.html
+12,Sparse autoencoders for word decoding from magnetoencephalography,A Fyshe,2013,https://sites.google.com/site/mlininips2013/proceedings-of-mlini-2012-1/Paper%2020.pdf
+11,Tutorial on deep learning and applications,H Lee,2010,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.294.3538&rep=rep1&type=pdf
+11,Novel segmented stacked autoencoder for effective dimensionality reduction and feature extraction in hyperspectral imaging,J Zabalza & J Ren,2016,http://www.sciencedirect.com/science/article/pii/S0925231215017798
+11,Using autoencoders for mammogram compression,C Eswaran,2011,http://link.springer.com/article/10.1007/s10916-009-9340-3
+11,Robust feature learning by stacked autoencoder with maximum correntropy criterion,Z Wu,2014,http://ieeexplore.ieee.org/abstract/document/6854900/
+11,Fusing heterogeneous features from stacked sparse autoencoder for histopathological image analysis,H Dou et al.,2016,http://ieeexplore.ieee.org/abstract/document/7172448/
+11,Representation learning for contextual object and region detection in remote sensing,O Firat et al.,2014,http://ieeexplore.ieee.org/abstract/document/6977349/
+11,Deep embedding network for clustering,Y Huang,2014,http://ieeexplore.ieee.org/abstract/document/6976982/
+11,High-resolution remote-sensing imagery retrieval using sparse features by auto-encoder,W Zhou,2015,http://www.tandfonline.com/doi/abs/10.1080/2150704X.2015.1074756
+11,Visualization of driving behavior using deep sparse autoencoder,HL Liu & T Taniguchi,2014,http://ieeexplore.ieee.org/abstract/document/6856506/
+11,Auto-associative neural network system for recognition,,2007,http://ieeexplore.ieee.org/abstract/document/4370640/
+11,Exploring multi-channel features for denoising-autoencoder-based speech enhancement,T Hayashi & M Delcroix,2015,http://ieeexplore.ieee.org/abstract/document/7177943/
+11,Viewpoint independent face recognition by competition of the viewpoint dependent classifiers,T Kurita & T Takahashi,2003,http://www.sciencedirect.com/science/article/pii/S092523120200615X
+11,Closing the gap: Domain adaptation from explicit to implicit discourse relations,Y Ji et al.,2015,http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.696.8135
+11,Spectral–spatial classification of hyperspectral image based on deep auto-encoder,X Ma,2016,http://ieeexplore.ieee.org/abstract/document/7405235/
+11,Deeply coupled auto-encoder networks for cross-view classification,Z Cui et al.,2014,https://arxiv.org/abs/1402.2031
+11,Stacked Sparse Autoencoder (SSAE) based framework for nuclei patch classification on breast cancer histopathology,J Xu et al.,2014,http://ieeexplore.ieee.org/abstract/document/6868041/
+11,Spectral-spatial classification of hyperspectral image using autoencoders,Z Lin & G Wang,2013,http://ieeexplore.ieee.org/abstract/document/6782778/
+11,The importance of long-term memory in infant perceptual categorization,M Mermillod et al.,2003,https://www.researchgate.net/profile/Robert_French/publication/228607693_The_importance_of_long-term_memory_in_infant_perceptual_categorization/links/0fcfd51128b1146f04000000.pdf
+10,Missing data estimation using principle component analysis and autoassociative neural networks,FV Nelwamondo & T Marwala,2009,http://www.iiisci.org/journal/CV$/sci/pdfs/KS628XI.pdf
+10,Learning Topic Representation for SMT with Neural Networks.,L Cui et al.,2014,http://www.aclweb.org/old_anthology/P/P14/P14-1013.pdf
+10,Learning a predictable and generative vector representation for objects,R Girdhar et al.,2016,http://link.springer.com/chapter/10.1007/978-3-319-46466-4_29
+10,Auto-encoder based data clustering,Y Huang & L Wang,2013,http://link.springer.com/chapter/10.1007/978-3-642-41822-8_15
+10,Random feature subspace ensemble based Extreme Learning Machine for liver tumor detection and segmentation,Z Lin,2014,http://ieeexplore.ieee.org/abstract/document/6944667/
+10,Building feature space of extreme learning machine with sparse denoising stacked-autoencoder,W Huang,2016,http://www.sciencedirect.com/science/article/pii/S0925231215011674
+10,Autoencoder in time-series analysis for unsupervised tissues characterisation in a large unlabelled medical image dataset,HC Shin et al.,2011,http://ieeexplore.ieee.org/abstract/document/6146980/
+10,Efficient online learning of a non-negative sparse autoencoder.,A Lemme et al.,2010,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.730&rep=rep1&type=pdf
+10,Self-Organization of Viewpoint Dependent Face Representation by the Self-Supervised Learning and Viewpoint Independent Face Recognition by the Mixture  …,T Kurita & T Takahashi,2000,http://home.hiroshima-u.ac.jp/tkurita/papers/kuritaMVA2000view.pdf
+10,An efficient and effective convolutional auto-encoder extreme learning machine network for 3d feature learning,K Xu,2016,http://www.sciencedirect.com/science/article/pii/S0925231215014940
+10,An autoencoder neural-network based low-dimensionality approach to excitation modeling for HMM-based text-to-speech,S Vishnubhotla,2010,http://ieeexplore.ieee.org/abstract/document/5495546/
+9,Music removal by convolutional denoising autoencoder in speech recognition,,2015,http://ieeexplore.ieee.org/abstract/document/7415289/
+9,Convergence suppression and divergence facilitation for pruning multi-output backpropagation networks,,1994,
+9,Composite sketch recognition via deep network-a transfer learning approach,P Mittal et al.,2015,http://ieeexplore.ieee.org/abstract/document/7139092/
+9,Deep Feature Learning Using Target Priors with Applications in ECoG Signal Decoding for BCI.,S Lyu et al.,2013,http://www.ecse.rpi.edu/~qji/Papers/IJCAI13-264.pdf
+9,Multimodal learning for autonomous underwater vehicles from visual and bathymetric data,D Rao et al.,2014,http://ieeexplore.ieee.org/abstract/document/6907413/
+9,Training a deep autoencoder or a classifier on MNIST digits,,2014,
+9,A winner-take-all method for training sparse convolutional autoencoders,A Makhzani & B Frey,2014,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.740.3932&rep=rep1&type=pdf
+9,Learn to swing up and balance a real pole based on raw visual input data,S Lange & M Riedmiller,2012,http://link.springer.com/chapter/10.1007/978-3-642-34500-5_16
+9,Multimodal video classification with stacked contractive autoencoders,,2016,http://www.sciencedirect.com/science/article/pii/S016516841500002X
+9,Robust speech recognition in unknown reverberant and noisy conditions,R Hsiao et al.,2015,http://ieeexplore.ieee.org/abstract/document/7404841/
+9,The cmu submission for the shared task on language identification in code-switched data,W Ammar & C Dyer,2014,http://www.aclweb.org/anthology/W/W14/W14-39.pdf#page=88
+9,Learning deeply coupled autoencoders for smartphone based robust periocular verification,R Raghavendra & C Busch,2016,http://ieeexplore.ieee.org/abstract/document/7532372/
+9,"Data space reduction, quality assessment and searching of seismograms: autoencoder networks for waveform data",AP Valentine & J Trampert,2012,http://gji.oxfordjournals.org/content/189/2/1183.short
+9,Analyzing noise in autoencoders and deep networks,B Poole & J Sohl-Dickstein,2014,https://arxiv.org/abs/1406.1831
+9,A new way to learn acoustic events,N Jaitly & GE Hinton,2011,http://www.cs.toronto.edu/~hinton/absps/capsules_speech.pdf
+9,Learning New Semi-Supervised Deep Auto-encoder Features for Statistical Machine Translation.,S Lu,2014,http://www.anthology.aclweb.org/P/P14/P14-1012.pdf
+9,Enforcing balance allows local supervised learning in spiking recurrent networks,S Deneve,2015,http://papers.nips.cc/paper/5948-enforcing-balance-allows-local-supervised-learning-in-spiking-recurrent-networks
+9,Facial expression recognition and generation using sparse autoencoder,Y Liu & X Hou,2014,http://ieeexplore.ieee.org/abstract/document/7043849/
+8,Machine intelligence for energy efficient ships: a big data solution,LP Perera,2016,https://www.researchgate.net/profile/Lokukaluge_Perera/publication/290438979_Machine_Intelligence_for_Energy_Efficient_Ships_A_Big_Data_Solution/links/578cb94508ae59aa66813723.pdf
+8,Regularized auto-encoders estimate local statistics,G Alain et al.,2012,http://www.eng.uwaterloo.ca/~jbergstr/files/nips_dl_2012/Paper%2029.pdf
+8,Learning temporal transformations from time-lapse videos,Y Zhou & TL Berg,2016,http://link.springer.com/chapter/10.1007/978-3-319-46484-8_16
+8,An introduction to deep learning,,2012,http://ieeexplore.ieee.org/abstract/document/6310529/
+8,Transformer fault diagnosis based on autoassociative neural networks,S Lima,2011,http://ieeexplore.ieee.org/abstract/document/6082196/
+8,Dimension reduction for regression with bottleneck neural networks,,2010,http://link.springer.com/chapter/10.1007/978-3-642-15381-5_5
+8,A novel sparse auto-encoder for deep unsupervised learning,X Jiang,2013,http://ieeexplore.ieee.org/abstract/document/6748512/
+8,Generative modeling of pseudo-target domain adaptation samples for whispered speech recognition,H Boşil,2015,http://ieeexplore.ieee.org/abstract/document/7178927/
+8,Adaptive noise schedule for denoising autoencoder,,2014,http://link.springer.com/chapter/10.1007/978-3-319-12637-1_67
+8,Dimensionality reduction and reconstruction of data based on autoencoder network,,2009,
+8,USFD at SemEval-2016 Task 6: Any-Target Stance Detection on Twitter with Autoencoders,I Augenstein & A Vlachos,2016,http://anthology.aclweb.org/S/S16/S16-1063.pdf
+8,A theory of generative convnet,Y Lu et al.,2016,http://www.jmlr.org/proceedings/papers/v48/xiec16.html
+8,Inductive manifold learning using structured support vector machine,,2014,http://www.sciencedirect.com/science/article/pii/S0031320313003099
+8,Supervised deep learning with auxiliary networks,J Zhang & Y Mu,2014,http://dl.acm.org/citation.cfm?id=2623618
+8,Marginalized stacked denoising autoencoders,M Chen et al.,2012,http://www.academia.edu/download/30756726/120.pdf
+8,On accurate and reliable anomaly detection for gas turbine combustors: A deep learning approach,,2015,https://www.phmsociety.org/sites/phmsociety.org/files/phm_submission/2015/phmc_15_025.pdf
+8,Using denoising autoencoder for emotion recognition.,R Xia & Y Liu,2013,
+8,Dynamic pre-training of deep recurrent neural networks for predicting environmental monitoring data,,2014,http://ieeexplore.ieee.org/abstract/document/7004302/
+8,Multilayer feature learning for polarimetric synthetic radar data classification,,2014,http://ieeexplore.ieee.org/abstract/document/6947062/
+8,A multilayer neural network for image demosaicking,,2014,http://ieeexplore.ieee.org/abstract/document/7025371/
+8,Performance comparison of three types of autoencoder neural networks,C Eswaran,2008,http://ieeexplore.ieee.org/abstract/document/4530478/
+8,Deep neural network for halftone image classification based on sparse auto-encoder,E Zhang,2016,http://www.sciencedirect.com/science/article/pii/S0952197616000361
+8,A folded neural network autoencoder for dimensionality reduction,J Wang & H He,2012,http://www.sciencedirect.com/science/article/pii/S1877050912007272
+8,Properties of independent components of self-motion optical flow,MA Jabri & SY Lee,2000,http://ieeexplore.ieee.org/abstract/document/848643/
+7,Multimodal feature learning for gait biometric based human identity recognition,E Hossain & G Chetty,2013,http://link.springer.com/chapter/10.1007/978-3-642-42042-9_89
+7,Online signature verification based on feature representation,M Fayyaz & M Sabokrou,2015,http://ieeexplore.ieee.org/abstract/document/7123528/
+7,Non-linear PLDA for i-vector speaker verification.,S Novoselov,2015,https://www.researchgate.net/profile/Timur_Pekhovsky/publication/282248418_Non-linear_PLDA_for_i-Vector_Speaker_Verification/links/56093b8908ae576ce63def26.pdf
+7,Cutting recursive autoencoder trees,C Scheible,2013,https://arxiv.org/abs/1301.2811
+7,Sparse autoencoder,,2011,
+7,Uncertainty estimation of DNN classifiers,SH Mallidi,2015,http://ieeexplore.ieee.org/abstract/document/7404806/
+7,Collaborative Filtering with Stacked Denoising AutoEncoders and Sparse Inputs,,2015,https://hal.inria.fr/hal-01256422/
+7,Speech emotion recognition using a deep autoencoder,EM Albornoz & HL Rufiner,2013,http://fich.unl.edu.ar/sinc/sinc-publications/2013/CAR13/sinc_CAR13.pdf
+7,Forecasting the weather of Nevada: A deep learning approach,B Rekabdar & SJ Louis,2015,http://ieeexplore.ieee.org/abstract/document/7280812/
+7,Optical Character Recognition for Handwritten Hindi,P Keshri,2010,http://cs229.stanford.edu/proj2010/KhandelwalGoyalKeshri-OpticalCharacterRecognitionforHandwrittenHindi.pdf
+7,"Investigation into the use of autoencoder neural networks, principal component analysis and support vector regression in estimating missing HIV data",VN Marivate et al.,2008,http://www.sciencedirect.com/science/article/pii/S1474667016390292
+7,Handwritten digit recognition by neural'gas' model and population decoding,H Yan,1998,http://ieeexplore.ieee.org/abstract/document/687117/
+7,Hypergraph regularized autoencoder for image-based 3D human pose recovery,X Chen,2016,http://www.sciencedirect.com/science/article/pii/S0165168415003400
+7,Linear autoencoder networks for structured data,A Sperduti,2013,http://daselab.cs.wright.edu/nesy/NeSy13/sperduti.pdf
+7,SAR automatic target recognition based on a visual cortical system,YL Xu,2013,http://ieeexplore.ieee.org/abstract/document/6745270/
+7,Deep learning of multifractal attributes from motor imagery induced EEG,J Li & A Cichocki,2014,http://link.springer.com/chapter/10.1007/978-3-319-12637-1_63
+7,Unsupervised feature extraction for multimedia event detection and ranking using audio content,E Amid et al.,2014,http://ieeexplore.ieee.org/abstract/document/6854743/
+7,TRACX2: a connectionist autoencoder using graded chunks to model infant visual statistical learning,D Mareschal & RM French,2017,http://rstb.royalsocietypublishing.org/content/372/1711/20160057.abstract
+7,The Applications of Deep Learning on Traffic Identification,,2015,http://www.covert.io/research-papers/deep-learning-security/Applications%20of%20Deep%20Learning%20On%20Traffic%20Identification.pdf
+7,Deep learning for automatic summary scoring,Y Bengio,2011,http://www.cs.toronto.edu/~akennedy/publications/proceedings_ts11.pdf#page=21
+7,Single-channel dereverberation for distant-talking speech recognition by combining denoising autoencoder and temporal structure normalization,L Wang et al.,2016,http://link.springer.com/article/10.1007/s11265-015-1007-3
+7,Action recognition using invariant features under unexampled viewing conditions,L Sun & K Aizawa,2013,http://dl.acm.org/citation.cfm?id=2508126
+7,Occlusion-free Face Alignment: Deep Regression Networks Coupled with De-corrupt AutoEncoders,J Zhang et al.,2016,http://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Zhang_Occlusion-Free_Face_Alignment_CVPR_2016_paper.html
+7,Auto-encoder based dimensionality reduction,,2016,http://www.sciencedirect.com/science/article/pii/S0925231215017671
+7,Dynamic background learning through deep auto-encoder networks,M Ye et al.,2014,http://dl.acm.org/citation.cfm?id=2654914
+7,Improving the robustness of example-based dialog retrieval using recursive neural network paraphrase identification,L Nio et al.,2014,http://ieeexplore.ieee.org/abstract/document/7078592/
+7,Non-linear prediction with LSTM recurrent neural networks for acoustic novelty detection,E Marchi & F Weninger,2015,http://ieeexplore.ieee.org/abstract/document/7280757/
+7,Deep autoencoders augmented with phone-class feature for reverberant speech recognition,T Kawahara,2015,http://ieeexplore.ieee.org/abstract/document/7178795/
+7,Cost functions for pairwise data clustering,S Stramaglia,2001,http://www.sciencedirect.com/science/article/pii/S0375960101003735
+7,Learning a driving simulator,E Santana,2016,https://arxiv.org/abs/1608.01230
+7,Detecting double compressed AMR audio using deep learning,J Huang,2014,http://ieeexplore.ieee.org/abstract/document/6854084/
+7,Joint Opinion Relation Detection Using One-Class Deep Neural Network.,K Liu,2014,http://ai2-s2-pdfs.s3.amazonaws.com/1623/87512135be6ef84bb54c7ea8fd700983da68.pdf
+7,Medical image compression with neural nets,,1995,http://ieeexplore.ieee.org/abstract/document/527758/
+7,Learning invariant features through local space contraction,S Rifai et al.,2011,https://arxiv.org/abs/1104.4153
+6,On nonparametric guidance for learning autoencoder representations,J Snoek et al.,2012,http://www.jmlr.org/proceedings/papers/v22/snoek12.html
+6,Learning a hierarchical representation of the yeast transcriptomic machinery using an autoencoder model,L Chen,2016,https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0852-1
+6,A comparison of neural network feature transforms for speaker diarization.,SH Yella & A Stolcke,2015,https://pdfs.semanticscholar.org/a0b1/8f411ca7100662c0266b7c156b55e70cfba1.pdf
+6,State estimation in distribution smart grids using autoencoders,J Krstulovic,2014,http://ieeexplore.ieee.org/abstract/document/6814454/
+6,Bilingual Correspondence Recursive Autoencoder for Statistical Machine Translation.,D Xiong et al.,2015,http://www.aclweb.org/website/old_anthology/D/D15/D15-1146.pdf
+6,Combining distances through an auto-encoder network to verify signatures,,2008,http://ieeexplore.ieee.org/abstract/document/4665893/
+6,"Capturing, analyzing, and transmitting intangible cultural heritage with the i-Treasures project",A Jaumard-Hakoun & SK Al Kork,2013,https://hal.archives-ouvertes.fr/hal-01136931/
+6,Learning motion manifolds with convolutional autoencoders,T Komura,2015,http://dl.acm.org/citation.cfm?id=2820918
+6,Recognition of handwritten characters in Chinese legal amounts by stacked autoencoders,M Wang,2014,http://ieeexplore.ieee.org/abstract/document/6977230/
+6,The neural support vector machine,MA Wiering,2013,http://repository.tudelft.nl/assets/uuid:d749d434-b443-4f79-8d0c-57528f3501cc/paper_75.pdf
+6,Human acoustic fingerprints: A novel biometric modality for mobile security,D Hatzinakos,2014,http://ieeexplore.ieee.org/abstract/document/6854309/
+6,Mind the Gap: Machine Translation by Minimizing the Semantic Gap in Embedding Space.,J Zhang et al.,2014,"http://nlpr-web.ia.ac.cn/cip/ZongPublications/2014/2014%20AAAI_Oral,Zhang%20JJ.pdf"
+6,Efficient feature coding based on auto-encoder network for image classification,GS Xie & XY Zhang,2014,http://link.springer.com/chapter/10.1007/978-3-319-16865-4_41
+6,"Variational autoencoder for deep learning of images, labels and captions",Z Gan et al.,2016,http://papers.nips.cc/paper/6528-variational-autoencoder-for-deep-learning-of-images-labels-and-captions
+6,Implementation and evaluation of deep neural networks (dnn) on mainstream heterogeneous systems,J Gu & F Zhang,2014,http://dl.acm.org/citation.cfm?id=2637229
+6,Retrieving sounds by vocal imitation recognition,Y Zhang & Z Duan,2015,http://ieeexplore.ieee.org/abstract/document/7324316/
+6,Deep complementary bottleneck features for visual speech recognition,S Petridis & M Pantic,2016,http://ieeexplore.ieee.org/abstract/document/7472088/
+6,Intention recognition and object recommendation system using deep auto-encoder based affordance model,,2013,http://hai-conference.net/ihai2013/proceedings/pdf/II-1-2.pdf
+6,Local visual feature fusion via maximum margin multimodal deep neural network,Q Dai,2016,http://www.sciencedirect.com/science/article/pii/S0925231215015350
+6,Stacked denoising autoencoders for face pose normalization,S Choi,2013,http://link.springer.com/chapter/10.1007/978-3-642-42051-1_31
+6,Variational Lossy Autoencoder,X Chen et al.,2016,https://arxiv.org/abs/1611.02731
+6,Breast density scoring with multiscale denoising autoencoders,M Nielsen,2012,http://stmi12.rutgers.edu/papers/Breast%20Density%20Scoring%20with%20Multiscale%20Denoising%20Autoencoders.pdf
+6,Autoencoder trees,O Irsoy & E Alpaydın,2014,http://www.jmlr.org/proceedings/papers/v45/Irsoy15.pdf
+6,Facing realism in spontaneous emotion recognition from speech: Feature enhancement by autoencoder with LSTM neural networks,Z Zhang et al.,2016,https://hal.archives-ouvertes.fr/hal-01494003/
+6,Learning two-layer contractive encodings,H Schulz & S Behnke,2012,http://www.springerlink.com/index/8660513722487351.pdf
+6,A Neural Model of Human Image Categorization.,E Hunsberger et al.,2013,https://pdfs.semanticscholar.org/828b/e8f91e5c66fac77d871d985660f584e6a78e.pdf
+6,Stacked denoise autoencoder based feature extraction and classification for hyperspectral images,X Yang,2015,https://www.hindawi.com/journals/js/2016/3632943/abs/
+6,Learning feature representations with a cost-relevant sparse autoencoder,M Längkvist & A Loutfi,2015,http://www.worldscientific.com/doi/abs/10.1142/S0129065714500348
+6,Learning classifiers from synthetic data using a multichannel autoencoder,X Zhang et al.,2015,https://arxiv.org/abs/1503.03163
+6,Denoising autoencoder with modulated lateral connections learns invariant representations of natural images,T Raiko & H Valpola,2014,https://arxiv.org/abs/1412.7210
+6,Stacked Denoising Autoencoder for feature representation learning in pose-based action recognition,MI Fanany,2014,http://ieeexplore.ieee.org/abstract/document/7031302/
+6,Attention-based multimodal neural machine translation,J Oh & C Dyer,2016,http://www.statmt.org/wmt16/pdf/W16-2360.pdf
+6,Feature extraction and pattern recognition for human motion by a deep sparse autoencoder,H Liu & T Taniguchi,2014,http://ieeexplore.ieee.org/abstract/document/6984650/
+6,Hyperspectral image unmixing using autoencoder cascade,H Qi,2015,http://aicip.eecs.utk.edu/mediawiki/images/1/12/15whisper-ae-unmixing.pdf
+6,Spherical nodes in neural networks with applications,M Kirby,1995,
+6,Compression net-free autoencoders,MH Hassoun,1997,http://neuron.eng.wayne.edu/nips97.ps
+6,Fast Easy Unsupervised Domain Adaptation with Marginalized Structured Dropout.,Y Yang & J Eisenstein,2014,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.649.5698&rep=rep1&type=pdf
+6,A deep auto-encoder based low-dimensional feature extraction from FFT spectral envelopes for statistical parametric speech synthesis,J Yamagishi,2016,http://ieeexplore.ieee.org/abstract/document/7472736/
+6,A deep learning based approach for traffic data imputation,Y Lv,2014,http://ieeexplore.ieee.org/abstract/document/6957805/
+6,Autoencoder-based collaborative filtering,W Liu & W Rong,2014,http://link.springer.com/chapter/10.1007/978-3-319-12643-2_35
+6,Fault diagnosis method study in roller bearing based on wavelet transform and stacked auto-encoder,,2015,http://ieeexplore.ieee.org/abstract/document/7162738/
+6,An autoencoder for clinical and regulatory data processing,,1995,http://dij.sagepub.com/content/29/1/107
+6,"Estimating missing data using neural network techniques, principal component analysis and genetic algorithms",FV Nelwamondo & T Marwala,2007,http://www.prasa.org/proceedings/2007/prasa07-04.pdf
+6,Encoding transliteration variation through dimensionality reduction: FIRE Shared Task on Transliterated Search,P Gupta et al.,2013,http://www.isical.ac.in/~fire/wn/STTS/2013-translit_search-gupta-tu_valencia.pdf
+6,Deep Transform: Error Correction via Probabilistic Re-Synthesis,AJR Simpson,2015,https://arxiv.org/abs/1502.04617
+6,Multimodal music mood classification by fusion of audio and lyrics,,2015,http://link.springer.com/chapter/10.1007/978-3-319-14442-9_3
+5,Sentiment Analysis Using SemiSupervised Recursive Autoencoders and Support Vector Machines,,2014,https://pdfs.semanticscholar.org/b6bc/9580ee7da1e5b9dbb0dd2961d8a40c3a30db.pdf
+5,Generative class-conditional autoencoders,G Taylor,2014,https://arxiv.org/abs/1412.7009
+5,On visual detection of highly-occluded objects for harvesting automation in horticulture,I Sa et al.,2015,http://eprints.qut.edu.au/90394/
+5,Loop closure detection for visual slam systems using deep neural networks,,2015,http://ieeexplore.ieee.org/abstract/document/7260555/
+5,Learning discriminative reconstructions for unsupervised outlier removal,Y Xia et al.,2015,http://www.cv-foundation.org/openaccess/content_iccv_2015/html/Xia_Learning_Discriminative_Reconstructions_ICCV_2015_paper.html
+5,Learning multi-scale representations for material classification,W Li,2014,http://link.springer.com/chapter/10.1007/978-3-319-11752-2_65
+5,Nrc: Infused phrase vectors for named entity recognition in twitter,C Cherry & H Guo,2015,http://anthology.aclweb.org/W/W15/W15-43.pdf#page=66
+5,"Technical report: Multidimensional, downsampled convolution for autoencoders",IJ Goodfellow,2010,http://www.iro.umontreal.ca/~lisa/pointeurs/convolution.pdf
+5,Lateral connections in denoising autoencoders support supervised learning,H Valpola & T Raiko,2015,https://arxiv.org/abs/1504.08215
+5,Extracting deep bottleneck features for visual speech recognition,R Togneri & M Bennamoun,2015,http://ieeexplore.ieee.org/abstract/document/7178224/
+5,Damage detection and health monitoring based on vibration measurements and recognition algorithms in real-scale aeronautical structural components,,2003,http://www.scientific.net/KEM.245-246.519.pdf
+5,Gender classification in face images based on stacked-autoencoders method,,2014,http://ieeexplore.ieee.org/abstract/document/7003829/
+5,Why regularized auto-encoders learn sparse representation?,D Arpit et al.,2016,http://www.jmlr.org/proceedings/papers/v48/arpita16.html
+5,Stretching deep architectures for text recognition,G Zhong & Y Chherawala,2015,http://ieeexplore.ieee.org/abstract/document/7333759/
+5,Deep learning,,2014,http://130.216.33.163/courses/compsci760s2c/lectures/Pat.d/2015.d/DeepLearning.pdf
+5,Attractive or not?: Beauty prediction with attractiveness-aware encoders and robust late fusion,S Wang et al.,2014,http://dl.acm.org/citation.cfm?id=2654986
+5,Towards Principled Unsupervised Learning,I Sutskever et al.,2015,https://arxiv.org/abs/1511.06440
+5,Using principal component analysis and autoassociative neural networks to estimate missing data in a database,FV Nelwamondo & T Marwala,2008,http://www.iiis.org/CDs2008/CD2008SCI/SCI2008/PapersPdf/S628XI.pdf
+5,A system for offline character recognition using auto-encoder networks,S Chakravarthy,2012,http://www.springerlink.com/index/V742546501118565.pdf
+5,Deep learning of spatio-temporal features with geometric-based moving point detection for motion segmentation,CC Wang,2014,http://ieeexplore.ieee.org/abstract/document/6907299/
+5,Investigation of autoencoder neural network accuracy for computational intelligence methods to estimate missing data,FV Nelwamondo & T Marwala,2008,http://www.actapress.com/Abstract.aspx?paperId=34056
+5,Semi-supervised training of a voice conversion mapping function using a joint-autoencoder.,SH Mohammadi & A Kain,2015,https://shamidreza.github.io/papers/is15.pdf
+5,Effective insect recognition using a stacked autoencoder with maximum correntropy criterion,GT Cinar et al.,2015,http://ieeexplore.ieee.org/abstract/document/7280418/
+5,Embedding with autoencoder regularization,P Luo et al.,2013,http://link.springer.com/chapter/10.1007/978-3-642-40994-3_14
+5,Missing sensor data restoration for vibration sensors on a jet aircraft engine,,2003,http://ieeexplore.ieee.org/abstract/document/1224050/
+5,Representation learning via semi-supervised autoencoder for multi-task learning,F Zhuang et al.,2015,http://ieeexplore.ieee.org/abstract/document/7373449/
+5,Environment-dependent denoising autoencoder for distant-talking speech recognition,L Wang,2015,http://link.springer.com/article/10.1186/s13634-015-0278-y
+5,Target classification in oceanographic SAR images with deep neural networks: Architecture and initial results,C Bentes & D Velotto,2015,http://ieeexplore.ieee.org/abstract/document/7326627/
+5,An autoencoder with bilingual sparse features for improved statistical machine translation,YC Tam,2014,http://ieeexplore.ieee.org/abstract/document/6854978/
+5,A new NMF-Autoencoder based CAD system for early diagnosis of prostate cancer,MA El-Ghar & F Khalifa,2016,http://ieeexplore.ieee.org/abstract/document/7493490/
+5,增量深度学习目标跟踪,,2015,http://www.eope.net/gxjmgc/article/2015/2015-4-1161.htm
+5,Locality-constrained sparse auto-encoder for image classification,J Yang,2015,http://ieeexplore.ieee.org/abstract/document/6991568/
+5,Auto-encoder based bagging architecture for sentiment analysis,W Rong,2014,http://www.sciencedirect.com/science/article/pii/S1045926X14000846
+5,Cross-modal Sound Mapping Using Deep Learning.,O Fried & R Fiebrink,2013,http://www.cs.princeton.edu/~fiebrink/publications/FriedFiebrink_NIME2013.pdf
+5,Speech Restoration Based on Deep Learning Autoencoder with Layer-wised Pretraining,S Matsuda & C Hori,2012,
+5,Feature extraction with stacked autoencoders for epileptic seizure detection,A Supratak & Y Guo,2014,http://ieeexplore.ieee.org/abstract/document/6944546/
+5,Deep learning for cerebellar ataxia classification and functional score regression,Z Yang et al.,2014,http://link.springer.com/chapter/10.1007/978-3-319-10581-9_9
+5,Bidirectional Helmholtz Machines,J Bornschein et al.,2016,http://www.jmlr.org/proceedings/papers/v48/bornschein16.html
+5,"Autoencoder, principal component analysis and support vector regression for data imputation",VN Marivate et al.,2007,https://arxiv.org/abs/0709.2506
+5,Hierarchical sparse autoencoder using linear regression-based features in clustering for handwritten digit recognition,NDH Le,2013,http://ieeexplore.ieee.org/abstract/document/6703736/
+5,Gaussian processes autoencoder for dimensionality reduction,J Gao & X Hong,2014,http://link.springer.com/chapter/10.1007/978-3-319-06605-9_6
+5,Paraphrase detection using recursive autoencoder,,2011,http://www-nlp.stanford.edu/courses/cs224n/2011/reports/ehhuang.pdf
+5,Autoencoder based multi-stream combination for noise robust speech recognition.,SHR Mallidi & K Veselý,2015,http://www.fit.vutbr.cz/research/groups/speech/publi/2015/mallidi_interspeech2015_IS150897.pdf
+4,Not all signals are created equal: dynamic objective auto-encoder for multivariate data,M Längkvist & A Loutfi,2012,http://aass.oru.se/~mlt/dynauto.pdf
+4,Musical audio synthesis using autoencoding neural nets,AM Sarroff & MA Casey,2014,http://www.smc-conference.org/smc-icmc-2014/papers/images/VOL_2/1411.pdf
+4,Contrastive auto-encoder for phoneme recognition,Z Wu,2014,http://ieeexplore.ieee.org/abstract/document/6854056/
+4,Audio enhancing with DNN autoencoder for speaker recognition,O Plchot et al.,2016,http://ieeexplore.ieee.org/abstract/document/7472647/
+4,Deep bottleneck classifiers in supervised dimension reduction,,2010,http://www.springerlink.com/index/P73748P120U78650.pdf
+4,A Structured Variational Auto-encoder for Learning Deep Hierarchies of Sparse Features,T Salimans,2016,https://arxiv.org/abs/1602.08734
+4,Static hand gesture recognition using stacked denoising sparse autoencoders,V Kumar et al.,2014,http://ieeexplore.ieee.org/abstract/document/6897155/
+4,Learning efficient error correcting output codes for large hierarchical multi-class problems,T Artières & P Gallinari,2011,https://www.researchgate.net/profile/Thierry_Artieres/publication/252065077_Learning_efficient_error_correcting_output_codes_for_large_hierarchical_multi-class_problems/links/5422c5e70cf238c6ea6c4546.pdf#page=43
+4,Inductive transfer deep hashing for image retrieval,X Ou et al.,2014,http://dl.acm.org/citation.cfm?id=2654987
+4,Removing structural noise in handwriting images using deep learning,SN Srihari,2014,http://dl.acm.org/citation.cfm?id=2683511
+4,Small target detection combining foreground and background manifolds,F Jurie,2013,https://hal.inria.fr/hal-00943444/
+4,Bearing fault diagnosis method based on stacked autoencoder and softmax regression,,2015,http://ieeexplore.ieee.org/abstract/document/7260634/
+4,Recognition of SAR target based on multilayer auto-encoder and SNN,,2013,http://www.ijicic.org/ijicic-12-11029.pdf
+4,Implementing and evaluating computer-assisted coding of adverse events,,1996,http://dij.sagepub.com/content/30/3/799.short
+4,Bottom–Up Visual Saliency Estimation With Deep Autoencoder-Based Sparse Reconstruction,F Qi,2016,http://ieeexplore.ieee.org/abstract/document/7386678/
+4,Video anomaly detection and localisation based on the sparsity and reconstruction error of auto-encoder,M Sabokrou et al.,2016,http://digital-library.theiet.org/content/journals/10.1049/el.2016.0440
+4,A left ventricular segmentation method on 3D echocardiography using deep learning and snake,G Luo,2016,http://ieeexplore.ieee.org/abstract/document/7868782/
+4,Squeezing bottlenecks: exploring the limits of autoencoder semantic representation capabilities,P Gupta et al.,2016,http://www.sciencedirect.com/science/article/pii/S0925231215015994
+4,Dynamics of tongue gestures extracted automatically from ultrasound,J Berry & I Fasel,2011,http://ieeexplore.ieee.org/abstract/document/5946464/
+4,Double articulation analyzer with deep sparse autoencoder for unsupervised word discovery from speech signals,T Taniguchi & H Liu,2016,http://www.tandfonline.com/doi/abs/10.1080/01691864.2016.1159981
+4,How well sentence embeddings capture meaning,L White et al.,2015,http://dl.acm.org/citation.cfm?id=2838932
+4,A deep learning model for structured outputs with high-order interaction,H Guo et al.,2015,https://arxiv.org/abs/1504.08022
+4,A modular structure of auto-encoder for the integration of different kinds of information,,2005,http://link.springer.com/chapter/10.1007/11539087_37
+4,Incorporating Domain and Sentiment Supervision in Representation Learning for Domain Adaptation.,M Huang & J Sun,2015,http://www.ijcai.org/Proceedings/15/Papers/184.pdf
+4,SAE-RNN deep learning for RGB-D based object recognition,J Bai,2014,http://link.springer.com/chapter/10.1007/978-3-319-09333-8_25
+4,A new training principle for stacked denoising autoencoders,YJ Zhang,2013,http://ieeexplore.ieee.org/abstract/document/6643701/
+4,Optimisation of a selforganising auto-encoder for the condition monitoring of a novel electric motor,,2000,
+4,Representation Based Translation Evaluation Metrics.,B Chen & H Guo,2015,http://www.anthology.aclweb.org/P/P15/P15-2025.pdf
+4,Human Action Recognition based on Convolutional Neural Networks with a Convolutional Auto-Encoder,,2015,
+4,A novel feature extraction method using deep neural network for rolling bearing fault diagnosis,C Yang & T Zhang,2015,http://ieeexplore.ieee.org/abstract/document/7162328/
+4,Using different cost functions when pre-training stacked auto-encoders,T Amaral & LA Alexandre,2013,http://www.deepnets.ineb.up.pt/files/publications/report_technical_2_aes.pdf
+4,EvoAE--A New Evolutionary Method for Training Autoencoders for Deep Learning Networks,,2015,http://ieeexplore.ieee.org/abstract/document/7273701/
+4,Early detection of combustion instabilities using deep convolutional selective autoencoders on hi-speed flame video,A Akintayo et al.,2016,https://arxiv.org/abs/1603.07839
+4,Continuous Space Representations of Linguistic Typology and their Application to Phylogenetic Inference.,Y Murawaki,2015,https://pdfs.semanticscholar.org/72b0/f873e0ec28ae23cc05a5b1a1e71e8fce1b5e.pdf
+4,基于 Autoencoder 网络的数据降维和重构,,2009,
+4,"Intelligent laser welding through representation, prediction, and control learning: An architecture with deep neural networks and reinforcement learning",PM Pilarski & K Diepold,2016,http://www.sciencedirect.com/science/article/pii/S0957415815001555
+4,Model of MT and MST areas using an autoencoder,,2003,http://www.sciencedirect.com/science/article/pii/S0378437102018034
+4,Discriminative autoencoders for small targets detection,F Jurie,2014,http://ieeexplore.ieee.org/abstract/document/6977319/
+4,Audio word2vec: Unsupervised learning of audio segment representations using sequence-to-sequence autoencoder,,2016,https://arxiv.org/abs/1603.00982
+4,The unsupervised hierarchical convolutional sparse auto-encoder for neuroimaging data classification,Y Zhong et al.,2015,http://link.springer.com/chapter/10.1007/978-3-319-23344-4_16
+4,Tongue contour extraction from ultrasound images based on deep neural network,A Jaumard-Hakoun,2016,https://arxiv.org/abs/1605.05912
+4,A survey of deep learning methods and software for image classification and object detection,,2014,https://kola.opus.hbz-nrw.de/frontdoor/deliver/index/docId/915/file/OGRW_2014_Proceedings.pdf#page=11
+4,Cardiac MRI view classification using autoencoder,IA Yassine,2014,http://ieeexplore.ieee.org/abstract/document/7020935/
+4,Randomized denoising autoencoders for smaller and efficient imaging based AD clinical trials,VK Ithapu & V Singh,2014,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4390084/
+4,Brainwaves as authentication method: Proving feasibility under two different approaches,KJ Kurtz,2014,http://ieeexplore.ieee.org/abstract/document/6972734/
+4,Structured denoising autoencoder for fault detection and analysis,T Tagawa & Y Tadokoro,2015,http://www.jmlr.org/proceedings/papers/v39/tagawa14.html
+4,Reconstruction of handwritten digit images using autoencoder neural networks,C Eswaran,2008,http://ieeexplore.ieee.org/abstract/document/4564577/
+4,Multi-sensor fusion model for constructing internal representation using autoencoder neural networks,,1996,http://ieeexplore.ieee.org/abstract/document/549147/
+4,"Learning structure in gene expression data using deep architectures, with an application to gene clustering",A Gupta & H Wang,2015,http://ieeexplore.ieee.org/abstract/document/7359871/
+4,Feature extraction of motor imagery EEG based on extreme learning machine auto-encoder,,2015,http://link.springer.com/chapter/10.1007/978-3-319-28397-5_28
+4,Deep Belief Networks,R Salakhutdinov & GE Hinton,2007,https://pdfs.semanticscholar.org/1c2b/b1fbc618dc2103889c620181785dfa838807.pdf
+4,Fault diagnosis of rotary machinery components using a stacked denoising autoencoder-based health state identification,,2017,http://www.sciencedirect.com/science/article/pii/S0165168416301797
+4,Recognition of geochemical anomalies using a deep autoencoder network,R Zuo,2016,http://www.sciencedirect.com/science/article/pii/S0098300415300728
+4,First steps towards an intelligent laser welding architecture using deep neural networks and reinforcement learning,PM Pilarski & H Shen,2014,http://www.sciencedirect.com/science/article/pii/S2212017314001224
+4,Modeling optical emission spectroscopy data generated during reactive ion etching using an autoencoder neural network,,2002,
+3,Contractive de-noising auto-encoder,,2014,http://link.springer.com/10.1007/978-3-319-09333-8_84
+3,Virtual autoencoder based recommendation system for individualizing head-related transfer functions,Y Luo & R Duraiswami,2013,http://ieeexplore.ieee.org/abstract/document/6701816/
+3,Constructing a deep neural network based spectral model for statistical speech synthesis,J Yamagishi,2016,http://link.springer.com/chapter/10.1007/978-3-319-28109-4_12
+3,The divergent autoencoder (DIVA) account of human category learning,KJ Kurtz,2005,http://escholarship.org/uc/item/4gs5d829.pdf
+3,Limited generalization capabilities of autoencoders with logistic regression on training sets of small sizes,A Potapov,2014,http://link.springer.com/chapter/10.1007/978-3-662-44654-6_25
+3,Adaptive stimulus representations: A computational theory of hippocampal-region function,MA Gluck & CE Myers,1993,https://papers.nips.cc/paper/713-adaptive-stimulus-representations-a-computational-theory-of-hippocampal-region-function.pdf
+3,Modulation format identification in coherent receivers using deep machine learning,K Zhong & WH Al-Arashi,2013,http://ieeexplore.ieee.org/iel7/68/4581641/07482803.pdf
+3,Extraction of features for lip-reading using autoencoders,,2014,http://link.springer.com/chapter/10.1007/978-3-319-11581-8_26
+3,Learning Deep Temporal Representations for Brain Decoding,O Firat & FTY Vural,2014,https://arxiv.org/abs/1412.7522
+3,A hybrid malicious code detection method based on deep learning,,2015,http://www.covert.io/research-papers/deep-learning-security/A%20Hybrid%20Malicious%20Code%20Detection%20Method%20based%20on%20Deep%20Learning.pdf
+3,A hand gesture recognition model based on semi-supervised learning,,2015,http://ieeexplore.ieee.org/abstract/document/7334914/
+3,Active learning system for weed species recognition based on hyperspectral sensing,D Moshou,2016,http://www.sciencedirect.com/science/article/pii/S1537511016000143
+3,Learning deep parsimonious representations,R Liao et al.,2016,http://papers.nips.cc/paper/6263-learning-deep-parsimonious-representations
+3,Variational gaussian process auto-encoder for ordinal prediction of facial action units,S Eleftheriadis et al.,2016,https://arxiv.org/abs/1608.04664
+3,Mask assisted object coding with deep learning for object retrieval in surveillance videos,J Wang,2014,http://dl.acm.org/citation.cfm?id=2654981
+3,Occlusion-robust face recognition using iterative stacked denoising autoencoder,Y Zhang,2013,http://link.springer.com/chapter/10.1007/978-3-642-42051-1_44
+3,Convolutional autoencoder-based color image classification using chroma subsampling in YCbCr space,,2015,http://ieeexplore.ieee.org/abstract/document/7407903/
+3,Applying neural network based novelty detection to industrial machinery,,2002,
+3,Unsupervised feature learning for human activity recognition using smartphone sensors,,2014,http://link.springer.com/chapter/10.1007/978-3-319-13817-6_11
+3,Character recognition of license plate using autoencoder neural network reconstruction [J],,2011,http://en.cnki.com.cn/Article_en/CJFDTOTAL-GDZJ201101034.htm
+3,Noisy training for deep neural networks,,2014,http://ieeexplore.ieee.org/abstract/document/6889193/
+3,Classification of stroke patients' motor imagery EEG with autoencoders in BCI-FES rehabilitation training system,Y Liu & L Zhang,2014,http://link.springer.com/chapter/10.1007/978-3-319-12643-2_25
+3,LCCT: a semisupervised model for sentiment classification,W Tu & Z Lu,2015,https://hub.hku.hk/handle/10722/219237
+3,Unsupervised Domain Adaptation for Word Sense Disambiguation using Stacked Denoising Autoencoder.,,2015,http://anthology.aclweb.org/Y/Y15/Y15-2026.pdf
+3,Multilayer Perceptron and Stacked Autoencoder for Internet Traffic Prediction,JS Barbar & AS Soares,2014,http://link.springer.com/chapter/10.1007/978-3-662-44917-2_6
+3,Segmenting brain tissues from Chinese visible human dataset by deep-learned features with stacked autoencoder,,2016,https://www.hindawi.com/journals/bmri/2016/5284586/abs/
+3,Predicting protein structural classes with autoencoder neural networks,,2013,http://ieeexplore.ieee.org/abstract/document/6561242/
+3,Visualizing and understanding nonnegativity constrained sparse autoencoder in deep architecture,,2016,
+3,Feature learning using stacked autoencoders to predict the activity of antimicrobial peptides,R Torres & R Ramos-Pollán,2015,http://link.springer.com/chapter/10.1007/978-3-319-23401-4_11
+3,State of health estimation combining robust deep feature learning with support vector regression,,2015,http://ieeexplore.ieee.org/abstract/document/7260613/
+3,Training a deep autoencoder or a classifier on MNIST digits,,2013,
+3,Outlier Detection with Autoencoder Ensembles,,2017,
+3,Trajectory Tracking and Recognition Using Bi-Directional Nonlinear Learning,,2007,http://cjc.ict.ac.cn/eng/qwjse/view.asp?id=2456
+3,Dimensionality reduction strategy based on auto-encoder,,2015,http://dl.acm.org/citation.cfm?id=2808555
+3,Conditional Image Generation with PixelCNN Decoders,A Oord et al.,2016,https://arxiv.org/abs/1606.05328
+3,Self-restraint object recognition by model based CNN learning,W Deng,2016,http://ieeexplore.ieee.org/abstract/document/7532438/
+3,An imbalanced data classification algorithm of improved autoencoder neural network,,2016,http://ieeexplore.ieee.org/abstract/document/7449810/
+3,Training Process Reduction Based On Potential Weights Linear Analysis To Accelarate Back Propagation Network,,2009,https://arxiv.org/abs/0908.1453
+3,Learning discriminative features and metrics for measuring action similarity,Y Yang & M Shah,2014,http://ieeexplore.ieee.org/abstract/document/7025311/
+3,Gas recognition under sensor drift by using deep learning,X Hu & M Ye,2015,http://onlinelibrary.wiley.com/doi/10.1002/int.21731/full
+3,Semi supervised autoencoders: better focusing model capacity during feature extraction,P Vincent,2013,http://link.springer.com/chapter/10.1007/978-3-642-42054-2_41
+3,Leaf classification utilizing a convolutional neural network,RM Parry,2015,http://ieeexplore.ieee.org/abstract/document/7132978/
+3,Creation of a deep convolutional auto-encoder in caffe,V Turchenko,2015,https://arxiv.org/abs/1512.01596
+3,Sensor failure compensation techniques for hv bushing monitoring using evolutionary computing,FV Nelwamondo,2006,https://www.researchgate.net/profile/Fulufhelo_Nelwamondo/publication/255599011_Sensor_Failure_Compensation_Techniques_for_HV_Bushing_Monitoring_using_Evolutionary_Computing/links/00b4953a80f931d8fe000000.pdf
+3,Discrimination of breast cancer with microcalcifications on mammography by deep learning,L Li,2016,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4895132/
+3,Saturating auto-encoder. arXiv preprint,,2013,
+3,Marginal fisher analysis feature extraction algorithm based on multilayer auto-encoder,,2012,
+3,Deep auto-encoder based low-dimensional feature extraction using fft spectral envelopes in statistical parametric speech synthesis,,2015,
+3,Correlation autoencoder hashing for supervised cross-modal search,Y Cao & M Long,2016,http://dl.acm.org/citation.cfm?id=2912000
+3,Computational aesthetics of photos quality assessment based on improved artificial neural network combined with an autoencoder technique,,2016,http://www.sciencedirect.com/science/article/pii/S0925231215019013
+3,Mirrored STDP implements autoencoder learning in a network of spiking neurons,,2015,http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004566
+3,Converting legacy data to MedDRA: Approach and implications,,2002,http://journals.sagepub.com/doi/abs/10.1177/009286150203600320
+3,Robust muscle cell quantification using structured edge detection and hierarchical segmentation,F Liu et al.,2015,http://link.springer.com/chapter/10.1007/978-3-319-24574-4_39
+3,Apply stacked auto-encoder to spam detection,G Mi & Y Tan,2015,http://link.springer.com/chapter/10.1007/978-3-319-20472-7_1
+3,A hybrid algorithm combining auto-encoder network with Sparse Bayesian Regression optimized by Artificial Bee Colony for short-term Wind Power Forecasting,,2013,http://www.red.pe.org.pl/articles/2013/2a/48.pdf
+3,Query-based single document summarization using an ensemble noisy auto-encoder,L Hamey,2015,http://www.aclweb.org/old_anthology/U/U15/U15-1001.pdf
+3,Research and prospect of deep auto-encoder,,2014,
+3,Unsupervised feature learning for Chinese lexicon based on auto-encoder,Z Kaixu,2013,
+3,Dropout training of matrix factorization and autoencoder for link prediction in sparse graphs,S Zhai & Z Zhang,2015,http://epubs.siam.org/doi/abs/10.1137/1.9781611974010.51
+3,ディープラーニングによるパターン認識,,2013,https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_action_common_download&item_id=91504&item_no=1&attribute_id=1&file_no=1
+3,An autoencoder of stellar spectra and its application in automatically estimating atmospheric parameters,,2015,http://mnras.oxfordjournals.org/content/452/1/158.short
+3,Stacked Autoencoder-based deep learning for remote-sensing image classification: a case study of African land-cover mapping,W Li et al.,2016,http://www.tandfonline.com/doi/abs/10.1080/01431161.2016.1246775
+3,Selecting autoencoder features for layout analysis of historical documents,M Seuret et al.,2015,http://dl.acm.org/citation.cfm?id=2809548
+3,Magic Mirror: A Virtual Fashion Consultant,,2016,http://dl.acm.org/citation.cfm?id=2970928
+3,Automated Detection of impact craters and volcanic rootless cones in mars satellite imagery using convolutional neural networks and support vector machines,L Palafox,2015,http://www.hou.usra.edu/meetings/lpsc2015/pdf/2316.pdf
+3,Prognostics of combustion instabilities from hi-speed flame video using a deep convolutional selective autoencoder,A Akintayo et al.,2016,http://web.me.iastate.edu/soumiks/pdf/Journal/AkintayoLoreSarkarSarkar16.pdf
+3,基于一种连续自编码网络的图像降维和重构,,2010,http://www.airitilibrary.com/Publication/alDetailedMesh?docid=10049037-201005-201006290024-201006290024-318-323
+3,Semisupervised autoencoder for sentiment analysis,S Zhai & Z Zhang,2015,https://arxiv.org/abs/1512.04466
+3,Predicting online user behaviour using deep learning algorithms,A Vieira,2015,https://arxiv.org/abs/1511.06247
+3,On the equivalence between deep nade and generative stochastic networks,L Yao et al.,2014,http://link.springer.com/chapter/10.1007/978-3-662-44845-8_21
+3,"Scaling, rotation, and translation invariant image recognition using competing multiple subspaces",,2003,http://ieeexplore.ieee.org/abstract/document/1223876/
+3,Denoising autoencoder-based speaker feature restoration for utterances of short duration,,2015,
+3,Discriminative feature learning for action recognition using a stacked denoising autoencoder,P Jin,2014,http://link.springer.com/chapter/10.1007/978-3-319-07776-5_54
+3,Multiple feed-forward deep neural networks for statistical parametric speech synthesis.,J Yamagishi,2015,https://pdfs.semanticscholar.org/1be2/f2c5e3262164eb32bda290d8a3405582b8d9.pdf
+3,Information Theoretic-Learning Auto-Encoder,E Santana & JC Principe,2016,http://ieeexplore.ieee.org/abstract/document/7727620/
+3,Two-stage noise aware training using asymmetric deep denoising autoencoder,,2016,http://ieeexplore.ieee.org/abstract/document/7472782/
+3,Study on signal recognition and diagnosis for spacecraft based on deep learning method,,2015,http://ieeexplore.ieee.org/abstract/document/7380040/
+3,Modular autoencoders for ensemble feature extraction,HWJ Reeve & G Brown,2015,http://www.jmlr.org/proceedings/papers/v44/reeve15a.pdf
+3,Bi-shifting auto-encoder for unsupervised domain adaptation,M Kan et al.,2015,http://www.cv-foundation.org/openaccess/content_iccv_2015/html/Kan_Bi-Shifting_Auto-Encoder_for_ICCV_2015_paper.html
+3,Kernel auto-encoder for semi-supervised hashing,B Gholami & A Hajisami,2016,http://ieeexplore.ieee.org/abstract/document/7477690/
+3,Text window denoising autoencoder: building deep architecture for Chinese word segmentation,X Wen,2013,http://link.springer.com/chapter/10.1007/978-3-642-41644-6_1
+3,Denoising autoencoder and environment adaptation for distant-talking speech recognition with asynchronous speech recording,L Wang,2014,http://ieeexplore.ieee.org/abstract/document/7041548/
+3,Real-time hebbian learning from autoencoder features for control tasks,JK Pugh et al.,2014,https://dspace.lboro.ac.uk/dspace-jspui/handle/2134/17041
+3,Imputing missing values in sensor networks using sparse data representations,S Lin,2014,http://dl.acm.org/citation.cfm?id=2641816
+3,Improving denoising auto-encoder based speech enhancement with the speech parameter generation algorithm,SS Wang et al.,2015,http://ieeexplore.ieee.org/abstract/document/7415295/
+2,Performance of the fixed-point autoencoder/Znacajke autodavaca s nepromjenjivom tockom,D Wang & J Xu,2016,http://go.galegroup.com/ps/i.do?id=GALE%7CA449315564&sid=googleScholar&v=2.1&it=r&linkaccess=fulltext&issn=13303651&p=AONE&sw=w
+2,Stacked sparse autoencoder in PolSAR data classification using local spatial information,,2016,http://ieeexplore.ieee.org/abstract/document/7518668/
+2,Learning unbiased features,Y Li et al.,2014,https://arxiv.org/abs/1412.5244
+2,Guest editorial: advances in machine learning for speech processing,M Dong & MW Mak,2016,http://link.springer.com/article/10.1007/s11265-016-1101-1
+2,Real-world font recognition using deep network and domain adaptation,Z Wang et al.,2015,https://arxiv.org/abs/1504.00028
+2,"A tutorial survey of architectures, algorithms, and applications for deep learning–ERRATUM",L Deng,2014,http://journals.cambridge.org/article_S2048770314000043
+2,Deep adaptive networks for image classification,S Zhou & X Wang,2010,http://dl.acm.org/citation.cfm?id=1937743
+2,Deep feature representation for hyperspectral image classification,L Bruzzone & S Liu,2015,http://ieeexplore.ieee.org/abstract/document/7326943/
+2,Dyna planning using a feature based generative model,R Faulkner & D Precup,2010,http://www.cs.mcgill.ca/~rfaulk/nips2010_submission.pdf
+2,Deep autoencoders for dimensionality reduction of high-content screening data,,2015,https://arxiv.org/abs/1501.01348
+2,Unsupervised hierarchical convolutional sparse auto-encoder for high spatial resolution imagery scene classification,Y Zhong & B Zhao,2015,http://ieeexplore.ieee.org/abstract/document/7377963/
+2,Progressive shape-distribution-encoder for 3d shape retrieval,J Xie & F Zhu,2015,http://dl.acm.org/citation.cfm?id=2806308
+2,Regularized deep learning for face recognition with weight variations,S Nagpal et al.,2015,http://ieeexplore.ieee.org/abstract/document/7361971/
+2,Learning multi-channel deep feature representations for face recognition,X Chen et al.,2015,http://www.jmlr.org/proceedings/papers/v44/chen15learning.pdf
+2,Learning deep dynamical models from image pixels,N Wahlström et al.,2014,https://arxiv.org/abs/1410.7550
+2,Application of deep belief networks for precision mechanism quality inspection,,2014,http://link.springer.com/chapter/10.1007/978-3-662-45586-9_12
+2,Calibration transfer via an extreme learning machine auto-encoder,ZM Zhang & YZ Liang,2016,http://pubs.rsc.org/-/content/articlehtml/2016/an/c5an02243f
+2,Incorporating image degeneration modeling with multitask learning for image super-resolution,,2015,http://ieeexplore.ieee.org/abstract/document/7351173/
+2,Autoencoder-based identification of predictors of Indian monsoon,M Saha et al.,2016,http://link.springer.com/article/10.1007/s00703-016-0431-7
+2,Preprocessing-free surface material classification using convolutional neural networks pretrained by sparse Autoencoder,H Zheng,2015,http://ieeexplore.ieee.org/abstract/document/7324324/
+2,Discovering Spatial and Temporal Patterns in Climate Data Using Deep Learning,C Anderson,2015,https://www.atmos.colostate.edu/~iebert/PAPERS/CI2015_paper_27.pdf
+2,Feature enhancement with a reservoir-based denoising auto encoder,,2013,http://ieeexplore.ieee.org/abstract/document/6781884/
+2,Deep Dictionary Learning vs Deep Belief Network vs Stacked Autoencoder: An Empirical Analysis,A Gogna & A Majumdar,2016,http://link.springer.com/chapter/10.1007/978-3-319-46681-1_41
+2,Greedy Deep Disaggregating Sparse Coding,S Singh et al.,2016,http://nilmworkshop.org/2016/proceedings/Paper_ID05.pdf
+2,Denoising without access to clean data using a partitioned autoencoder,D Stowell & RE Turner,2015,https://arxiv.org/abs/1509.05982
+2,Learning Deep Neural Networks for High Dimensional Output Problems,R Hérault & C Chatelain,2009,http://ieeexplore.ieee.org/abstract/document/5381795/
+2,Cross lingual speech emotion recognition using canonical correlation analysis on principal component subspace,H Sagha et al.,2016,http://ieeexplore.ieee.org/abstract/document/7472789/
+2,Text detection in arabic news video based on swt operator and convolutional auto-encoders,O Zayene & M Seuret,2016,http://ieeexplore.ieee.org/abstract/document/7490086/
+2,A comparison of autoencoder and statistical features for cattle behaviour classification,A Rahman & D Smith,2016,http://ieeexplore.ieee.org/abstract/document/7727573/
+2,Deep learning and face recognition: the state of the art,,2015,http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=2295289
+2,Object Detection using Convolutional Neural Networks,,2013,https://pdfs.semanticscholar.org/b1fd/c0908ebfa7760979301ba895203f1543b449.pdf
+2,High dimensionality reduction using CUR matrix decomposition and auto-encoder for web image classification,Y Liu & J Shao,2011,http://www.springerlink.com/index/C83807257U850771.pdf
+2,A coarse-to-fine deep learning for person re-identification,L Oliveira,2016,http://ieeexplore.ieee.org/abstract/document/7477677/
+2,Robust Deep Auto-encoder for Occluded Face Recognition,J Wang & Y Gong,2015,http://dl.acm.org/citation.cfm?id=2806291
+2,Deep hybrid networks with good out-of-sample object recognition,M Ghifary et al.,2014,http://ieeexplore.ieee.org/abstract/document/6854642/
+2,"Multi-layer neural network auto encoders learning method, using regularization for invariant image recognition",,2016,http://52.172.159.94/index.php/indjst/article/view/97704
+2,Archetypal analysis as an autoencoder,C Bauckhage et al.,2015,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.710.1085&rep=rep1&type=pdf#page=8
+2,Unsupervised feature learning for visual sign language identification,BG Gebre & O Crasborn,2014,http://pubman.mpdl.mpg.de/pubman/faces/viewItemOverviewPage.jsp?itemId=escidoc:2012629
+2,Denoising autoencoders for fast combinatorial black box optimization,,2015,http://dl.acm.org/citation.cfm?id=2764691
+2,Motion detection via a couple of auto-encoder networks,M Ye,2014,http://ieeexplore.ieee.org/abstract/document/6890140/
+2,Deep learning architecture for data mining from surgical data,,2012,http://ieeexplore.ieee.org/abstract/document/6240790/
+2,Speech dereverberation using long short-term memory,MMSST Kawahara,2015,https://pdfs.semanticscholar.org/b382/72d3b17c43452862943c40376e8fc2ad5eb5.pdf
+2,Classification of human actions using pose-based features and stacked auto encoder,EP Ijjina,2016,http://www.sciencedirect.com/science/article/pii/S0167865516300253
+2,Deep Feature Representation via Multiple Stack Auto-Encoders,Z Wang,2015,http://link.springer.com/chapter/10.1007/978-3-319-24075-6_27
+2,Generating feature sets for fault diagnosis using denoising stacked auto-encoder,RK Sevakula,2016,http://ieeexplore.ieee.org/abstract/document/7542865/
+2,Text classification dimension reduction algorithm for Chinese web page based on deep learning,,2013,http://ieeexplore.ieee.org/abstract/document/6748633/
+2,Assessing diffusion of spatial features in deep belief networks,B Mitchell & J Sheppard,2016,http://ieeexplore.ieee.org/abstract/document/7727392/
+2,A Study on Recursive Neural Network Based Sentiment Classification of Sina Weibo,,2014,http://ieeexplore.ieee.org/abstract/document/7011312/
+2,Independent component analysis-Based sparse autoencoder in the application of fault diagnosis,H Su,2014,http://ieeexplore.ieee.org/abstract/document/7052920/
+2,An empirical analysis of different sparse penalties for autoencoder in unsupervised feature learning,W Rong,2015,http://ieeexplore.ieee.org/abstract/document/7280568/
+2,Understanding dropout: training multi-layer perceptrons with auxiliary independent stochastic neurons,KH Cho,2013,http://link.springer.com/chapter/10.1007/978-3-642-42054-2_59
+2,Representational learning for sonar ATR,,2014,http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1881270
+2,Learning representations of affect from speech,S Ghosh et al.,2015,https://arxiv.org/abs/1511.04747
+2,Autoencoding time series for visualisation,P Tino & K Polsterer,2015,https://arxiv.org/abs/1505.00936
+2,Tuning parameters of deep neural network algorithms for identifying best cost function,C Kandaswamy & T Amaral,2013,http://www.deepnets.ineb.up.pt/files/publications/report_technical_2_2013.pdf
+2,BEGAN: Boundary Equilibrium Generative Adversarial Networks,L Metz,2017,https://arxiv.org/abs/1703.10717
+2,Gradient-based FCM and a neural network for clustering of incomplete data,,2005,http://link.springer.com/chapter/10.1007/11539087_166
+2,Nonlinear dimensionality reduction using neural networks,R Salakhutdinov,2000,http://www.utstat.toronto.edu/~rsalakhu/talks/abstract.ps.gz
+2,"Autoencoder Neural Networks: A Performance Study Based on Image Reconstruction, Recognition and Compression",C Eswaran,2010,http://dl.acm.org/citation.cfm?id=1859325
+2,Autoencoder: An Implementation of Sparse Autoencoder for Automatic Learning of Representative Features from Unlabeled Data,,2014,
+2,A novel method of diagnosing premature ventricular contraction based on sparse auto-encoder and softmax regression,,2015,http://content.iospress.com/articles/bio-medical-materials-and-engineering/bme1454
+2,Blind source separation by sensor-signal identity mapping by auto-encoder with hidden-layer pruning,,2002,http://ieeexplore.ieee.org/abstract/document/1007683/
+2,Spatio-temporal convolutional sparse auto-encoder for sequence classification,M Baccouche et al.,2005,https://www.researchgate.net/profile/Moez_Baccouche/publication/230866907_Spatio-Temporal_Convolutional_Sparse_Auto-Encoder_for_Sequence_Classification/links/53eca3450cf24f241f1595a2.pdf
+2,Learning facial expression codes with sparse auto-encoder,,2013,http://www.scientific.net/AMM.433-435.334
+2,Forest fire image classification based on deep neural network of sparse autoencoder,,2014,
+2,Exercise: Sparse Autoencoder,,2011,
+2,Short Texts Feature Extraction and Clustering Based on Auto-Encoder,,2015,http://en.cnki.com.cn/Article_en/CJFDTotal-BJDZ201502013.htm
+2,A novel deep model for image recognition,,2014,http://ieeexplore.ieee.org/abstract/document/6933585/
+2,Reverberant speech recognition based on denoising autoencoder using multiple analysis window lengths,,2013,
+2,Dimensionality reduction of radio map with nonlinear autoencoder,MK Lee,2012,http://ieeexplore.ieee.org/abstract/document/6204287/
+2,"Non-negative sparse autoencoder neural networks for the detection of overlapping, hierarchical communities in networked datasets",S Michele Rajtmajer,2012,http://aip.scitation.org/doi/abs/10.1063/1.4771600
+2,A Hybrid Convolutional Variational Autoencoder for Text Generation,A Severyn & E Barth,2017,https://arxiv.org/abs/1702.02390
+2,Joint optimization of denoising autoencoder and dnn acoustic model based on multi-target learning for noisy speech recognition,,2016,
+2,"Sparse Autoencoder, vol. 72 of",,2011,
+2,An Autoencoder Approach to Learning Bilingual Word Representations,,2014,
+2,A novel approach for Finger Vein verification based on self-taught learning,M Fayyaz & M Hajizadeh-Saffar,2015,http://ieeexplore.ieee.org/abstract/document/7397511/
+2,Deep neural network for face recognition based on sparse autoencoder,,2015,http://ieeexplore.ieee.org/abstract/document/7407948/
+2,Parallel auto-encoder for efficient outlier detection,,2013,http://ieeexplore.ieee.org/abstract/document/6691791/
+2,Combining Distance through an Auto Encoder Off Line Signature,,2008,
+2,"Van hamme H, Zheng T F. Unseen noise estimation using separable deep auto encoder for speech enhancement. IEEE",,2016,
+2,Deep Denoising Auto-encoder for Statistical Speech Synthesis,J Yamagishi,2015,https://arxiv.org/abs/1506.05268
+2,Sparse shift-invariant representation of local 2d patterns and sequence learning for human action recognition,M Baccouche et al.,2012,http://ieeexplore.ieee.org/abstract/document/6460998/
+2,Neural network based model for visual-motor integration learning of robot's drawing behavior: Association of a drawing motion from a drawn image,K Noda,2015,http://ieeexplore.ieee.org/abstract/document/7353752/
+2,Fabric defect detection using deep learning,,2016,http://ieeexplore.ieee.org/abstract/document/7496020/
+2,Studies on classification of fMRI data using deep learning approach,NKLM Rashid,2015,http://www.arpnjournals.org/jeas/research_papers/rp_2015/jeas_1115_2977.pdf
+2,Efficient encoding of customer class load profiles,,2013,http://ieeexplore.ieee.org/abstract/document/6757767/
+2,Semantic retrieval of personal photos using a deep autoencoder fusing visual features with speech annotations represented as word/paragraph vectors.,,2015,http://speech.ee.ntu.edu.tw/~tlkagk/paper/photo_IS15.pdf
+2,Sparse representation for kinect based hand gesture recogntion system,,2013,http://www.atlantis-press.com/php/download_paper.php?id=8905
+2,Advances in modeling human category learning with DIVA,KJ Kurtz,2008,http://escholarship.org/uc/item/3m21f8nf.pdf
+2,"Learning to communicate: channel auto-encoders, domain specific regularizers, and attention",TJ O'Shea et al.,2016,https://arxiv.org/abs/1608.06409
+2,Conservativeness of untied auto-encoders,DJ Im & R Memisevic,2015,https://arxiv.org/abs/1506.07643
+2,A Hierarchical Approach for Handwritten Digit Recognition Using Sparse Autoencoder,NDH Le,2014,http://link.springer.com/chapter/10.1007/978-3-319-03206-1_10
+2,Design of Fuzzy k-Nearest Neighbors Classifiers based on Feature Extraction by using Stacked Autoencoder,,2015,http://www.koreascience.or.kr/article/ArticleFullRecord.jsp?cn=DHJGII_2015_v64n1_113
+2,Refined pan-sharpening with nsct and hierarchical sparse autoencoder,,2016,http://ieeexplore.ieee.org/abstract/document/7523328/
+2,Recognizing facial expressions from videos using Deep Belief Networks,,2009,http://cs229.stanford.edu/proj2010/RaoThiagarajan-RecognizingFacialExpressionsFromVideosUsingDeepBeliefNetworks.pdf
+2,Using convolutional features and a sparse autoencoder for land-use scene classification,E Othman et al.,2016,http://www.tandfonline.com/doi/abs/10.1080/01431161.2016.1171928
+2,An automated machine learning approach applied to robotic stroke rehabilitation,J Snoek et al.,2012,http://www.aaai.org/ocs/index.php/FSS/FSS12/paper/view/5624
+2,IPMiner: hidden ncRNA-protein interaction sequential pattern mining with stacked autoencoder for accurate computational prediction,X Pan & J Yan,2016,https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2931-8
+2,The effect of different hidden unit number of sparse autoencoder,,2015,http://ieeexplore.ieee.org/abstract/document/7162335/
+2,Construction and Reduction Methods of Vulnerability Index System in Power SCADA,,2014,http://www.earticle.net/Article.aspx?sn=237093
+2,The CLEAR 2006 CMU acoustic environment classification system,,2007,http://www.springerlink.com/index/7G8NQX41286254Q8.pdf
+2,Bengali handwritten numeric character recognition using denoising autoencoders,,2015,http://ieeexplore.ieee.org/abstract/document/7275002/
+2,Deep kinship verification,M Wang et al.,2015,http://ieeexplore.ieee.org/abstract/document/7340820/
+2,Reconstruction of handwritten digit images using autoencoder neural networks,,2008,
+1,High speed deep networks based on Discrete Cosine Transformation,,2014,http://ieeexplore.ieee.org/abstract/document/7026196/
+1,A function-wise pre-training technique for constructing a deep neural network based spectral model in statistical parametric speech synthesis,,2015,http://www.research.ed.ac.uk/portal/files/23403651/Takaki_et_al_2015_A_function_wise_pre_training_technique.pdf
+1,End-to-end ASR-free keyword search from speech,K Audhkhasi & A Sethy,2017,https://arxiv.org/abs/1701.04313
+1,Fault diagnosis based on deep learning,,2016,http://ieeexplore.ieee.org/abstract/document/7526751/
+1,Deep neural ensemble for retinal vessel segmentation in fundus images towards achieving label-free angiography,A Lahiri et al.,2016,http://ieeexplore.ieee.org/abstract/document/7590955/
+1,Stochastic video prediction with conditional density estimation,J Brofos & HH Bui,2016,https://pdfs.semanticscholar.org/89d2/c247347bc517251998c4826076fa3cb0ca76.pdf
+1,Single image main objects extraction via stacked sparse auto-encoders using sharpness information,,2014,http://ieeexplore.ieee.org/abstract/document/7231904/
+1,Application of semi-supervised deep learning to lung sound analysis,D Chamberlain & R Kodgule,2016,http://ieeexplore.ieee.org/abstract/document/7590823/
+1,A data-driven color feature learning scheme for image retrieval,RR Varior & G Wang,2015,http://ieeexplore.ieee.org/abstract/document/7178187/
+1,Learning representations of linguistic sequences,CT Kello et al.,2005,
+1,Multimodal biometric gait database: a comparison study,E Hossain & G Chetty,2014,http://search.proquest.com/openview/2bb0efd632e34ab25847ad70e46efe41/1?pq-origsite=gscholar&cbl=396457
+1,Modelling the transition from perceptual to conceptual organization,G Westermann & D Mareschal,2009,http://books.google.com/books?hl=en&lr=&id=n5hpDQAAQBAJ&oi=fnd&pg=PA153&dq=autoencoder&ots=GEyj-lNsWx&sig=dAtuS663npqntu0TzApKeCMuZXk
+1,Fishing activity detection from AIS data using autoencoders,X Jiang et al.,2016,http://link.springer.com/chapter/10.1007/978-3-319-34111-8_4
+1,Gender classification of subjects from cerebral blood flow changes using Deep Learning,,2014,http://ieeexplore.ieee.org/abstract/document/7008672/
+1,A novel approach for trajectory feature representation and anomalous trajectory detection,,2015,http://ieeexplore.ieee.org/abstract/document/7266680/
+1,Improving Automatic Speech Recognition Containing Additive Noise Using Deep Denoising Autoencoders of LSTM Networks,M Coto-Jiménez,2016,http://link.springer.com/chapter/10.1007/978-3-319-43958-7_42
+1,Monophonic sound source separation by non-negative sparse autoencoders,,2014,http://ieeexplore.ieee.org/abstract/document/6974492/
+1,Autoencoder With Invertible Functions for Dimension Reduction and Image Reconstruction,Y Yang,2016,http://ieeexplore.ieee.org/abstract/document/7797236/
+1,Indexing Mayan hieroglyphs with neural codes,E Roman-Rangel & S Marchand-Maillet,2016,http://www.idiap.ch/project/maaya/files/2016-ICPR.pdf
+1,Deep Predictive Policy Training using Reinforcement Learning,A Ghadirzadeh et al.,2017,https://arxiv.org/abs/1703.00727
+1,Improving the Architecture of an Autoencoder for Dimension Reduction,,2014,http://ieeexplore.ieee.org/abstract/document/7307054/
+1,RODEO: Robust DE-aliasing autoencOder for real-time medical image reconstruction,J Mehta & A Majumdar,2017,http://www.sciencedirect.com/science/article/pii/S0031320316302850
+1,Model-coupled autoencoder for time series visualisation,P Tiňo & KL Polsterer,2016,http://www.sciencedirect.com/science/article/pii/S0925231216002587
+1,Accurate Aggregation of Local Features by using K-sparse Autoencoder for 3D Model Retrieval,T Furuya & R Ohbuchi,2016,http://dl.acm.org/citation.cfm?id=2912054
+1,Adaptive Deep Supervised Autoencoder Based Image Reconstruction for Face Recognition,,2016,https://www.hindawi.com/journals/mpe/2016/6795352/abs/
+1,Detection of Application Layer DDoS attack by feature learning using Stacked AutoEncoder,,2016,http://ieeexplore.ieee.org/abstract/document/7514608/
+1,Recursive Autoencoder with HowNet Lexicon for Sentence-Level Sentiment Analysis,,2015,http://dl.acm.org/citation.cfm?id=2818908
+1,Nonlinear model reduction by deep autoencoder of noise response data,K Kashima,2016,http://ieeexplore.ieee.org/abstract/document/7799153/
+1,Deep Feature Consistent Variational Autoencoder,L Shen & G Qiu,2016,https://arxiv.org/abs/1610.00291
+1,A Framework for Automatically Extracting Overvoltage Features Based on Sparse Autoencoder,K Chen,2016,http://ieeexplore.ieee.org/abstract/document/7458873/
+1,ヒトの尿データへの DeepLearning 適用による肺がん判定の試行と考察,,2015,https://kaigi.org/jsai/webprogram/2015/pdf/2C1-OS-06a-2.pdf
+1,Learning Deep Autoencoders without Layer-wise Training,Y Zhou & V Govindaraju,2014,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.748.3349&rep=rep1&type=pdf
+1,EMIF: Towards a Scalable and Effective Indexing Framework for Large Scale Music Retrieval,T Mei et al.,2015,http://dl.acm.org/citation.cfm?id=2749346
+1,Mid-level features for audio chord estimation using stacked denoising autoencoders,,2013,http://romip.ru/russiras/doc/2013_for_participant/russirysc2013_submission_13_1.pdf
+1,基于稀疏自编码深度神经网络的林火图像分类,,2014,http://ceaj.com.cn/EN/article/downloadArticleFile.do?attachType=PDF&id=32704
+1,智能电网状态估计系统的研究及实现 [D],,2012,http://cdmd.cnki.com.cn/Article/CDMD-10079-1012428943.htm
+1,Competitive learning by entropy minimization,,1993,http://www.springerlink.com/index/Y22745160628263L.pdf
+1,Sparse auto-encoded hypo-metabolism patterns in Alzheimer's disease and mild cognitive impairment,S Liu et al.,2013,http://jnm.snmjournals.org/content/54/supplement_2/1807.short
+1,Switched linear encoding with rectified linear autoencoders,,2013,https://arxiv.org/abs/1301.3753
+1,Cyberbullying Detection based on Semantic-Enhanced Marginalized Denoising Auto-Encoder,R Zhao,2016,http://ieeexplore.ieee.org/abstract/document/7412690/
+1,Hyperspectral classification via learnt features,M Siegel,2015,http://ieeexplore.ieee.org/abstract/document/7351271/
+1,SAFS: A deep feature selection approach for precision medicine,,2016,http://ieeexplore.ieee.org/abstract/document/7822569/
+1,Two-Layer Contractive Encodings with Shortcuts for Semi-Supervised Learning,H Schulz et al.,2013,http://link.springer.com/chapter/10.1007/978-3-642-42054-2_56
+1,Reservoir computing for emotion valence discrimination from EEG signals,L Bozhkov et al.,2017,http://www.sciencedirect.com/science/article/pii/S0925231216311638
+1,Heterogeneity-entropy based unsupervised feature learning for personality prediction with cross-media data,,2016,http://ieeexplore.ieee.org/abstract/document/7552980/
+1,Diagnosis of tidal turbine vibration data through deep neural networks,,2016,http://strathprints.strath.ac.uk/57127/
+1,Head-shoulder detection using deep autoencoders,,2016,http://www.indjst.org/index.php/indjst/article/view/104302
+1,Performance evaluation of typical unsupervised feature learning algorithms for visual object recognition,Z Yin,2014,http://ieeexplore.ieee.org/abstract/document/7053598/
+1,Heterogeneous face recognition based on modality-independent Kernel Fisher discriminant analysis joint sparse auto-encoder,,2016,http://digital-library.theiet.org/content/journals/10.1049/el.2016.2661
+1,A dynamic state estimation method based on mixed measurements for power system,,2013,http://www.pe.org.pl/articles/2013/5/44.pdf
+1,Low bitrates audio bandwidth extension using a deep auto-encoder,,2015,http://link.springer.com/chapter/10.1007/978-3-319-24075-6_51
+1,Autoencoder for polysemous word,CY Liou,2012,http://link.springer.com/chapter/10.1007/978-3-642-36669-7_56
+1,Stacked auto-encoder for ASR error detection and word error rate prediction.,S Jalalvand & D Falavigna,2015,https://hlt-mt.fbk.eu/sites/hlt-mt.fbk.eu/files/naacl2015tointerspeech2015.pdf
+1,Generalized extreme learning machine autoencoder and a new deep neural network,J Zhang,2017,http://www.sciencedirect.com/science/article/pii/S092523121631503X
+1,Transformer fault diagnosis using continuous sparse autoencoder,X Zhao,2016,https://springerplus.springeropen.com/articles/10.1186/s40064-016-2107-7
+1,Ultrametric structure in autoencoder error surfaces,M Gallagher & I Wood,1998,http://link.springer.com/10.1007/978-1-4471-1599-1_23
+1,A convolutional autoencoder for multi-subject fmri data aggregation,PH Chen et al.,2016,https://arxiv.org/abs/1608.04846
+1,Adaptive background search and foreground estimation for saliency detection via comprehensive autoencoder,A Li & Y Yuan,2016,http://ieeexplore.ieee.org/abstract/document/7532863/
+1,Unsupervised adaptation of a denoising autoencoder by bayesian feature enhancement for reverberant asr under mismatch conditions,J Heymann et al.,2015,http://ieeexplore.ieee.org/abstract/document/7178933/
+1,Collaborative recurrent autoencoder: Recommend while learning to fill in the blanks,H Wang & DY Yeung,2016,http://papers.nips.cc/paper/6163-collaborative-recurrent-autoencoder-recommend-while-learning-to-fill-in-the-blanks
+1,Multi-step-ahead host load prediction using autoencoder and echo state networks in cloud computing,X Xing,2015,http://link.springer.com/article/10.1007/s11227-015-1426-8
+1,Estimation of Players' Actions in Soccer Matches Based On Deep Autoencoder,,2015,http://www.er.ams.eng.osaka-u.ac.jp/Paper/2015/Copete15a.pdf
+1,De-convolutional auto-encoder for enhancement of fingerprint samples,C Busch,2016,http://ieeexplore.ieee.org/abstract/document/7821036/
+1,Group sparse autoencoder,A Sankaran et al.,2017,http://www.sciencedirect.com/science/article/pii/S0262885617300136
+1,Sparse Autoencoder [J/OL],,2014,
+1,"An end-to-end convolutional selective autoencoder approach to soybean cyst nematode eggs detection, Knowledge Discovery and Data Mining workshop …",,2016,
+1,Contractive De-noising Auto-encoder,,2013,https://arxiv.org/abs/1305.4076
+1,Picture blind source separation by auto-encoder identity mapping with structural pruning,,2002,http://ieeexplore.ieee.org/abstract/document/1202849/
+1,Hybrid auto encoder network for iris nevus diagnosis considering potential malignancy,OK Oyedotun et al.,2015,http://ieeexplore.ieee.org/abstract/document/7323305/
+1,Auto-encoder using the bi-firing activation function,WWY Ng,2014,http://ieeexplore.ieee.org/abstract/document/7009128/
+1,Facial landmark detection via pose-induced auto-encoder networks,J Yang,2015,http://ieeexplore.ieee.org/abstract/document/7351174/
+1,Unsupervised feature learning by pre-route simulation of auto-encoder behavior model,,2014,http://www.waset.org/publications/9998129
+1,A novel denoising autoencoder assisted segmentation algorithm for cotton field,H Lu & Y Zhu,2015,http://ieeexplore.ieee.org/abstract/document/7382568/
+1,Comprehensive autoencoder for prostate recognition on MR images,X Wang et al.,2016,http://ieeexplore.ieee.org/abstract/document/7493479/
+1,Denoising Autoencoder for Eletrocardiogram Signal Enhancement,,2015,http://www.ingentaconnect.com/content/asp/jmihi/2015/00000005/00000008/art00036
+1,Research of text categorization based on sparse autoencoder algorithm,SJ QIN,2013,http://en.cnki.com.cn/Article_en/CJFDTOTAL-KXJS201331052.htm
+1,Autoencoder: Approach to the reduction of the dimension of the vector space with controlled loss of information,,2015,http://ieeexplore.ieee.org/abstract/document/7181894/
+1,Learning visual co-occurrence with auto-encoder for image super-resolution,,2014,http://ieeexplore.ieee.org/abstract/document/7041671/
+1,Visualizing Stacked Autoencoder Language Learning,T Barron,2016,http://cs.coloradocollege.edu/~mwhitehead/files/mypapers/wordclouds.pdf
+1,Change detection based on auto-encoder model for VHR images,Y Xu & S Xiang,2013,http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1762974
+1,Novel subband autoencoder features for non-intrusive quality assessment of noise suppressed speech,H Patil,2016,https://www.researchgate.net/profile/Meet_Soni3/publication/307889587_Novel_Subband_Autoencoder_Features_for_Non-Intrusive_Quality_Assessment_of_Noise_Suppressed_Speech/links/583bd04f08ae3a74b4a06fdd.pdf
+1,Hyperspectral anomaly detection method based on auto-encoder,A Çalışkan & A Koz,2015,http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=2464534
+1,A Robust Acoustic Feature Extraction Approach Based on Stacked Denoising Autoencoder,JH Liu & YX Zou,2015,http://ieeexplore.ieee.org/abstract/document/7153865/
+1,Denoising autoencoder for iris recognition in noncooperative environments,E Luz & D Menotti,2015,http://link.springer.com/chapter/10.1007/978-3-319-25751-8_25
+1,Autoencoder-derived Features as Inputs to Classification Algorithms for Predicting Well Failures,,2015,https://www.onepetro.org/conference-paper/SPE-174015-MS
+1,Sparse Autoencoder based deep neural network for voxelwise detection of cerebral microbleed,,2016,http://ieeexplore.ieee.org/abstract/document/7823881/
+1,A denoising autoencoder that guides stochastic search,S Sigtia & C Fernando,2014,https://arxiv.org/abs/1404.1614
+1,Label-Denoising Auto-encoder for Classification with Inaccurate Supervision Information,D Wang & X Tan,2014,http://ieeexplore.ieee.org/abstract/document/6977339/
+1,Marginalized denoising autoencoder via graph regularization for domain adaptation,Y Peng & BL Lu,2013,http://link.springer.com/chapter/10.1007/978-3-642-42042-9_20
+1,Single-image splicing localization through autoencoder-based anomaly detection,D Cozzolino & L Verdoliva,2016,http://ieeexplore.ieee.org/abstract/document/7823921/
+1,Stacked denoising autoencoder and dropout together to prevent overfitting in deep neural network,,2015,http://ieeexplore.ieee.org/abstract/document/7407967/
+1,A robust digital image watermarking technique using auto encoder based convolutional neural networks,K Haribabu & G Subrahmanyam,2015,http://ieeexplore.ieee.org/abstract/document/7495522/
+1,Nonlinear dimensionality reduction for intrusion detection using auto-encoder bottleneck features,,2015,http://ieeexplore.ieee.org/abstract/document/7288799/
+1,Deep neural network for online writer identification using Beta-elliptic model,T Dhieb et al.,2016,http://ieeexplore.ieee.org/abstract/document/7727426/
+1,Motion recognition by using a stacked autoencoder-based deep learning algorithm with smart phones,,2015,http://link.springer.com/chapter/10.1007/978-3-319-21837-3_76
+1,Bangla handwritten digit recognition using autoencoder and deep convolutional neural network,M Shopon,2016,http://ieeexplore.ieee.org/abstract/document/7860340/
+1,Consensus style centralizing auto-encoder for weak style classification,S Jiang et al.,2016,http://dl.acm.org/citation.cfm?id=3015993
+1,基于深度学习的不完整大数据填充算法,,2014,http://d.wanfangdata.com.cn/periodical_wdzxyjsj201412039.aspx
+1,An adaptive stacked denoising auto-encoder architecture for human action recognition.,D Wu,2014,http://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=16627482&AN=100087609&h=TAxXeCiYDJvwRz%2B0odToP%2FWsuE86Bw7gIIJdf%2B%2Fc3ajkmRCqx3ebqtUtgBJF6HC1YwAGotJ4euj8W9n3RRpSKg%3D%3D&crl=c
+1,Deep Learning Methods for Vision,R Fergus,2012,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.727.8093&rep=rep1&type=pdf
+1,Improving Decision Analytics with Deep Learning: The Case of Financial Disclosures,S Feuerriegel,2015,https://arxiv.org/abs/1508.01993
+1,Deep model based domain adaptation for fault diagnosis,Y Cheng,2017,http://ieeexplore.ieee.org/abstract/document/7740016/
+1,Cross-language speech attribute detection and phone recognition for Tibetan using deep learning,,2014,http://ieeexplore.ieee.org/abstract/document/6936682/
+1,Improving Decision Analytics with Deep Learning: The Case of Financial Disclosures,S Feuerriegel,2016,http://aisel.aisnet.org/cgi/viewcontent.cgi?article=1018&context=ecis2016_rip
+1,Real-time activity recognition via deep learning of motion features,K Konda & R Memisevic,2015,http://books.google.com/books?hl=en&lr=&id=USGLCgAAQBAJ&oi=fnd&pg=PA427&dq=autoencoder&ots=FrlamrHYTL&sig=VpEQ59wBC80Fpo5Vh-Qvl6YQuG8
+1,A Deep Learning Method for Braille Recognition,,2014,http://ieeexplore.ieee.org/abstract/document/7065649/
+1,Modeling local field potentials with recurrent neural networks,A Widge,2015,https://pdfs.semanticscholar.org/34cf/8f546b1f5bc3fe3ddbd9d0ac59358c5703a6.pdf
+1,Latent subspace clustering based on deep neural networks,C Shang & F Yang,2014,https://pdfs.semanticscholar.org/144b/bc2abe3b706c8d161160c409efa32157d722.pdf
+1,Autoencoding ground motion data for visualisation,,2012,http://www.springerlink.com/index/HV872KJ328N18287.pdf
+1,Nonlinear dimensionality reduction of mass spectrometry data for odor sensing,,2015,http://ieeexplore.ieee.org/abstract/document/7295807/
+1,A Semi-supervised Approach for Water Quality Detection based on IoT Network,,2016,http://bit.kuas.edu.tw/~jihmsp/2016/vol7/JIH-MSP-2016-04-017.pdf
+1,Interpretation of Low Dimensional Neural Network Bottleneck Features in Terms of Human Perception and Production,P Weber et al.,2016,https://www.researchgate.net/profile/Philip_Weber2/publication/303923325_Interpretation_of_Low_Dimensional_Neural_Network_Bottleneck_Features_in_Terms_of_Human_Perception_and_Production/links/57612d4a08aeeada5bc4d3dd.pdf
+1,Locality sensitive hashing of customer load profiles,,2013,http://ieeexplore.ieee.org/abstract/document/6749779/
+1,Towards Feature Learning for HMM-based Offline Handwriting Recognition,GA Fink et al.,2011,https://eldorado.tu-dortmund.de/handle/2003/27556
+1,A Rapid Hybrid Distributed Intrusion Detection Scheme for Large Scale Data Set,,2013,
+1,Experimental Study of Unsupervised Feature Learning for HEp-2 Cell Images Clustering,Z Gao et al.,2014,http://ieeexplore.ieee.org/abstract/document/7008108/
+1,Energy Science and Applied Technology ESAT 2016,,2016,http://www.crcnetbase.com/doi/pdfplus/10.1201/9781315375076-142
+1,Auto-encoder pre-training of segmented-memory recurrent neural networks.,S Glüge et al.,2013,https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2013-50.pdf
+1,Fast learning method for convolutional neural networks using extreme learning machine and its application to lane detection,,2017,http://www.sciencedirect.com/science/article/pii/S0893608016301885
+1,Deep learning for brain decoding,O Firat et al.,2014,http://ieeexplore.ieee.org/abstract/document/7025563/
+1,Comparison of Four-and Six-Layered Configurations for Deep Network Pretraining,T Kärkkäinen,2016,https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2016-45.pdf
+1,"Multi-label, multi-class classification using polylingual embeddings",G Balikas & MR Amini,2016,http://link.springer.com/chapter/10.1007/978-3-319-30671-1_59
+1,Semi-Supervised Learning with the Deep Rendering Mixture Model,RG Baraniuk,2016,https://arxiv.org/abs/1612.01942
+1,CPCA: a multiplierless neural PCA,R Dogaru & I Dogaru,2004,http://ieeexplore.ieee.org/abstract/document/1381075/
+1,"A Tutorial on Deep Learning Part 2: Autoencoders, Convolutional Neural Networks and Recurrent Neural Networks",QV Le,2015,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.703.5244&rep=rep1&type=pdf
+1,Empirical Evaluation of Whitening and Optimization of Feature Learning,,2014,http://ieeexplore.ieee.org/abstract/document/7046035/
+1,The Next Generation Neural Networks: Deep Learning and Spiking Neural Networks,,2014,http://www.nst.ei.tum.de/fileadmin/w00bqs/www/publications/as/2014SS-HS-DeepLearningAndSNN.pdf
+1,Implicit Parameter Resonance in Autoassociative Neural Network Encoders,BB Thompson & RJ Marks II,2005,
+1,ECG signal enhancement based on improved denoising auto-encoder,Z Hou,2016,http://www.sciencedirect.com/science/article/pii/S0952197616300331
+1,Deep Transform: Time-Domain Audio Error Correction via Probabilistic Re-Synthesis,AJR Simpson,2015,https://arxiv.org/abs/1503.05849
+1,Bearing fault diagnosis with auto-encoder extreme learning machine: A comparative study,W Mao,2016,http://pic.sagepub.com/content/early/2016/11/03/0954406216675896.abstract
+1,Japanese Sentiment Classification with Stacked Denoising Auto-Encoder using Distributed Word Representation.,M Komachi,2015,https://www.aclweb.org/anthology/Y/Y15/Y15-1018.pdf
+1,Deep auto-encoder based clustering,Y Huang et al.,2014,http://content.iospress.com/articles/intelligent-data-analysis/ida00709
+1,Gear fault detection under fluctuating operating conditions by means of discrepancy analysis,T Heyns,2012,http://link.springer.com/chapter/10.1007/978-3-642-28768-8_9
+1,Pattern recognition: invariance learning in convolutional auto encoder network,OK Oyedotun & K Dimililer,2016,http://search.proquest.com/openview/e7ae4290781e563cddb08742dc657d51/1?pq-origsite=gscholar&cbl=2026669
+1,Modeling time-series with deep networks,M Längkvist,2014,http://www.diva-portal.org/smash/record.jsf?pid=diva2:769465
+1,From multiple views to single view: A neural network approach,AP Sarath Chandar,2015,http://dl.acm.org/citation.cfm?id=2732602
+1,Gradual training of deep denoising auto encoders,,2014,https://arxiv.org/abs/1412.6257
+1,Contracting Auto-Encoders,S Rifai & P Vincent,2011,https://pdfs.semanticscholar.org/9db1/6a2dbc060526f520aab9a15b8316e2e6c12a.pdf
+1,LBANN: Livermore big artificial neural network HPC toolkit,K Boakye,2015,http://dl.acm.org/citation.cfm?id=2834897
+1,A novel method based on data visual autoencoding for time-series classification,Y Wang & L Guo,2015,http://link.springer.com/chapter/10.1007/978-3-662-46469-4_10
+1,Comparison of auto-encoders with different sparsity regularizers,,2015,http://ieeexplore.ieee.org/abstract/document/7280364/
+1,Regularization method for solving denoising and inpainting task using stacked sparse denoising autoencoders,,2016,http://search.proquest.com/openview/8e336ec84507e9897b714eaa53d45b46/1?pq-origsite=gscholar&cbl=1216343
+1,Mapping between ultrasound and vowel speech using DNN framework,,2014,http://ieeexplore.ieee.org/abstract/document/6936700/
+0,Detecting multiple changes from multi-temporal images by using stacked denosing autoencoder based change vector analysis,,2016,http://ieeexplore.ieee.org/abstract/document/7727343/
+0,SPATIAL-SPECTRAL CLASSIFICATION BASED ON THE UNSUPERVISED CONVOLUTIONAL SPARSE AUTO-ENCODER FOR HYPERSPECTRAL REMOTE  …,Y Zhong,2016,http://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/III-7/25/2016/isprs-annals-III-7-25-2016.pdf
+0,Predicting backbone Cα angles and dihedrals from protein sequences by stacked sparse auto-encoder deep neural network,R Heffernan et al.,2014,https://research-repository.griffith.edu.au/bitstream/handle/10072/64247/98338_1.pdf?sequence=1
+0,Predictor Discovery for Early-late Indian Summer Monsoon Using Stacked Autoencoder,M Saha et al.,2016,http://www.sciencedirect.com/science/article/pii/S1877050916307517
+0,Nonparametrically Guided Autoencoder with Laplace Approximation for dimensionality reduction,J Gao,2016,http://ieeexplore.ieee.org/abstract/document/7727631/
+0,Bayesian AutoEncoder: generation of Bayesian networks with hidden nodes for features,,2016,http://dl.acm.org/citation.cfm?id=3016538
+0,Learning a good representation with unsymmetrical auto-encoder,Q Guo & Z Yi,2016,http://link.springer.com/article/10.1007/s00521-015-1939-3
+0,Deep Learning for solar power forecasting—An approach using AutoEncoder and LSTM Neural Networks,A Gensler & B Sick,2016,http://ieeexplore.ieee.org/abstract/document/7844673/
+0,A Hybrid Autoencoder and Density Estimation Model for Anomaly Detection,M Nicolau & J McDermott,2016,http://link.springer.com/chapter/10.1007/978-3-319-45823-6_67
+0,Single Sample Face Recognition from Video via Stacked Supervised Auto-Encoder,PJS Vega & RQ Feitosa,2016,http://ieeexplore.ieee.org/abstract/document/7813021/
+0,Age invariant face recognition and retrieval by coupled auto-encoder networks,M Ye,2017,http://www.sciencedirect.com/science/article/pii/S0925231216311729
+0,Sparsely connected autoencoder,A Majumdar,2016,http://ieeexplore.ieee.org/abstract/document/7727437/
+0,A convolutional autoencoder as a generative model of images for problems of distinguishing attributes and restoring images in missing regions,IN Zhdanov,2015,https://www.osapublishing.org/abstract.cfm?uri=jot-82-8-528
+0,Sparse autoencoder based spatial pyramid facial feature learning,,2015,http://ieeexplore.ieee.org/abstract/document/7486607/
+0,δ-agree Adaboost Stacked Autoencoder for Short-term Traffic Flow Forecasting,T Zhou & Z Lin,2017,http://www.sciencedirect.com/science/article/pii/S0925231217305647
+0,Low-level structure feature extraction for image processing via stacked sparse denoising autoencoder,,2017,http://www.sciencedirect.com/science/article/pii/S0925231217303909
+0,A classification method for moving targets in the wild based on microphone array and linear sparse auto-encoder,,2017,http://www.sciencedirect.com/science/article/pii/S0925231217301947
+0,Tuning electrical stimulation for thalamic visual prosthesis: An autoencoder-based approach,A Jawwad & B Abdullah,2016,http://ieeexplore.ieee.org/abstract/document/7591955/
+0,Experiments on classification of electroencephalography (EEG) signals in imagination of direction using Stacked Autoencoder,,2017,http://alife-robotics.co.jp/homepage2018/members2017/icarob/data/html/data/GS_pdf/GS1/GS1-3.pdf
+0,Skill Transfer between Humans and Robots Based on Dynamic Movement Primitives and Sparse Autoencoder,,2017,http://etd.library.vanderbilt.edu/available/etd-03242017-160746/unrestricted/LiMingqi.pdf
+0,CDVAE: Co-embedding Deep Variational Auto Encoder for Conditional Variational Generation,J Lu et al.,2016,https://arxiv.org/abs/1612.00132
+0,Reducing the negative effect of defective data on driving behavior segmentation via a deep sparse autoencoder,HL Liu & T Taniguchi,2016,http://ieeexplore.ieee.org/abstract/document/7800355/
+0,A regularization framework for stereo matching using IGMRF prior and sparseness learned from autoencoder,MV Joshi,2016,http://ieeexplore.ieee.org/abstract/document/7532997/
+0,A stacked sparse autoencoder based architecture for Punjabi and English spoken language classification using MFCC features,,2016,http://ieeexplore.ieee.org/abstract/document/7724269/
+0,Stabilizing Linear Prediction Models Using Autoencoder,S Gopakumar et al.,2016,http://link.springer.com/chapter/10.1007/978-3-319-49586-6_46
+0,Study on Battlefield Situation Assessment Model of Simulation Entity Based on Stacked Auto-Encoder Network,,2016,http://link.springer.com/chapter/10.1007/978-981-10-2666-9_54
+0,Nonnegative autoencoder with simplified random neural network,Y Yin,2016,https://arxiv.org/abs/1609.08151
+0,Universum Autoencoder-Based Domain Adaptation for Speech Emotion Recognition,J Deng et al.,2017,http://ieeexplore.ieee.org/abstract/document/7862157/
+0,Semi-supervised auto-encoder based on manifold learning,AK Qin & YS Ong,2016,http://ieeexplore.ieee.org/abstract/document/7727724/
+0,HANDWRITTEN NUMERAL RECOGNITION USING NEURAL NETWORKS,,2015,
+0,Representation Learning with Smooth Autoencoder,K Liang et al.,2014,http://link.springer.com/chapter/10.1007/978-3-319-16808-1_6
+0,Variational Auto-Encoder & Normalizing Flows,,2015,http://www.machinelearning.ru/wiki/images/f/f2/LebedevTuzovaVaeNfSlides.pdf
+0,Summer school on semisupervised learning Variational learning part 2 Auto-encoders for un-and semisupervised learning,O Winther,2016,https://semisupervised-learning.compute.dtu.dk/wp-content/uploads/2016/01/Autoencoders_part2.pdf
+0,Learning Representations with a Dynamic Objective Sparse Autoencoder,M Längkvist & A Loutfi,2012,http://www.diva-portal.org/smash/record.jsf?pid=diva2:710528
+0,Active learning based autoencoder for hyperspectral imagery classification,A Plaza,2016,http://ieeexplore.ieee.org/abstract/document/7729116/
+0,Mechanism of situation element acquisition based on deep auto-encoder network in wireless sensor networks,,2017,http://journals.sagepub.com/doi/abs/10.1177/1550147717699625
+0,Noise-Robust Speech Emotion Recognition Using Denoising Autoencoder,NK Kim & WK Seong,2016,http://www.aes.org/e-lib/browse.cfm?elib=18164
+0,Multimodal learning using convolution neural network and Sparse Autoencoder,,2017,http://ieeexplore.ieee.org/abstract/document/7881683/
+0,Image Compression with Stochastic Winner-Take-All Auto-Encoder,A Roumy & C Guillemot,2017,https://hal.archives-ouvertes.fr/hal-01493137/
+0,Eye Labeling of Medical Image Data: Semantic Segmentation using Variational Auto-Encoder,,2016,http://www.artorg.unibe.ch/unibe/portal/fak_medizin/dept_weitere/ins_artorg/content/e212002/e212041/e460636/e464343/e468475/semantic_segmentation_using_variotional_auto_encoder_eng.pdf
+0,Hyperspectral Imaging-Based Surface and Internal Defects Detection of Cucumber via Stacked Sparse Auto-encoder and Convolutional Neural Network,R Lu,2016,https://elibrary.asabe.org/azdez.asp?AID=47038&t=2
+0,Semi-Supervised Training of Convolutional Neural Networks,B Gong,2016,https://pdfs.semanticscholar.org/525c/de3cbd31b4c446fa4636b84dced0cb020523.pdf
+0,Mid-Level Feature Representation via Sparse Autoencoder for Remotely Sensed Scene Classification,A Samat,2017,http://ieeexplore.ieee.org/abstract/document/7738435/
+0,Contractive Denoising Autoencoder,,2013,
+0,SAR Automatic Target Recognition Based on Euclidean Distance Restricted Autoencoder,L Du,2017,http://ieeexplore.ieee.org/abstract/document/7879824/
+0,Unsupervised domain adaptation techniques based on auto-encoder for non-stationary EEG-based emotion recognition,O Bai,2016,http://www.sciencedirect.com/science/article/pii/S0010482516302797
+0,Evaluating the Divergent Auto-Encoder (DIVA) as a Machine Learning Algorithm.,,2011,http://mindmodeling.org/cogsci2011/papers/0829/paper0829.pdf
+0,Cascading Denoising Auto-Encoder as a Deep Directed Generative Model,,2015,https://arxiv.org/abs/1511.07118
+0,Choosing the Best Auto-Encoder-Based Bagging Classifier: An Empirical Study,W Rong & Y Shen,2014,http://link.springer.com/chapter/10.1007/978-3-319-12637-1_52
+0,Parallel Unsupervised Feature Learning with Sparse AutoEncoder,,2010,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.375.1950&rep=rep1&type=pdf
+0,Inferring Intrinsic Beliefs of Digital Images Using a Deep Autoencoder,,2016,http://scholarworks.uark.edu/csceuht/36/
+0,Optimize real-valued RBM with Bidirectional Autoencoder,CLP Chen,2015,http://ieeexplore.ieee.org/abstract/document/7391888/
+0,Page Header Logo AAAI Publications,,2017,http://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14379
+0,Recurrent Temporal Sparse Autoencoder for attention-based action recognition,,2016,http://ieeexplore.ieee.org/abstract/document/7727234/
+0,Masked Autoencoder for Distribution Estimation,,2015,https://pdfs.semanticscholar.org/ccc3/c7ac0ca5a70a87a938d74439b05a515523f9.pdf
+0,Variational Autoencoder based Anomaly Detection using Reconstruction Probability,J An,2015,http://dm.snu.ac.kr/static/docs/TR/SNUDM-TR-2015-03.pdf
+0,Spectral-Spatial Classification of Hyperspectral Imagery Based on Stacked Sparse Autoencoder and Random Forest,,2017,http://www.tandfonline.com/doi/abs/10.1080/22797254.2017.1274566
+0,A Hybrid Algorithm of Extreme Learning Machine and Sparse Auto-Encoder,R Guan,2016,http://link.springer.com/chapter/10.1007/978-3-319-52015-5_20
+0,Comparison between Unsupervised Feature Learning Methods Using an Auto-Encoder and Self-Organizing Map Algorithm for Sign Language Recognition,A Kumar,2014,https://pdfs.semanticscholar.org/7109/86492bb94e1c3550e4937127052954acc7e4.pdf
+0,Stacked Robust Autoencoder for Classification,J Mehta et al.,2016,http://link.springer.com/chapter/10.1007/978-3-319-46675-0_66
+0,CSI-based autoencoder classification for Wi-Fi indoor localization,B Wang,2016,http://ieeexplore.ieee.org/abstract/document/7532172/
+0,Semi-Supervised Autoencoder: A Joint Approach of Representation and Classification,,2015,http://ieeexplore.ieee.org/abstract/document/7546333/
+0,Classification method of tactile feeling using stacked autoencoder based on haptic primary colors,CL Fernando,2017,http://ieeexplore.ieee.org/abstract/document/7892341/
+0,Manifold Regularized Stacked Autoencoder for Feature Learning,H Liu,2015,http://ieeexplore.ieee.org/abstract/document/7379645/
+0,Corrigendum to'Novel segmented stacked autoencoder for effective dimensionality reduction and feature extraction in hyperspectral imaging' …,J Zabalza & J Ren,2016,http://dl.acm.org/citation.cfm?id=3032658
+0,Denoising AutoEncoder in Neural Networks with Modified Elliott Activation Function and Sparsity-Favoring Cost Function,G Hu,2015,http://ieeexplore.ieee.org/abstract/document/7336086/
+0,Hybrid autoencoder and classifier for label-deficient semi-supervised learning: Case study,,2016,http://ieeexplore.ieee.org/abstract/document/7527873/
+0,Searching for modules of networks in the auto‐encoder frame,D Marinazzo,2007,http://aip.scitation.org/doi/abs/10.1063/1.2828753
+0,Novel Subband Autoencoder Features for Detection of Spoofed Speech,TB Patel & HA Patil,2016,
+0,Multimodal Deep Learning Library,,2015,https://pdfs.semanticscholar.org/3095/14d2eb6082768ba9833205fe0844d85acc37.pdf
+0,Research of 3D face recognition algorithm based on deep learning stacked denoising autoencoder theory,,2016,http://ieeexplore.ieee.org/abstract/document/7586606/
+0,Evaluation of weight sparsity control during autoencoder training of resting-state fMRI using non-zero ratio and hoyer's sparseness,H Kim,2016,http://ieeexplore.ieee.org/abstract/document/7552356/
+0,Infinite Variational Autoencoder for Semi-Supervised Learning,E Abbasnejad et al.,2016,https://arxiv.org/abs/1611.07800
+0,Sparse Auto-encoder with Smoothed l_1 Regularization,,2016,http://link.springer.com/chapter/10.1007/978-3-319-46675-0_61
+0,Research of stacked denoising sparse autoencoder,,2016,http://link.springer.com/article/10.1007/s00521-016-2790-x
+0,Real-time Dynamic MRI Reconstruction using Stacked Denoising Autoencoder,A Majumdar,2015,https://arxiv.org/abs/1503.06383
+0,Dimensionality reduction and image reconstruction based on continuous autoencoder network,,2010,
+0,An end-to-end convolutional selective autoencoder approach to Soybean Cyst Nematode eggs detection,A Akintayo & V Chawla,2016,https://arxiv.org/abs/1603.07834
+0,Computational analysis of the Bidirectional Activation-based Learning in autoencoder task,I Farkaš,2015,http://ieeexplore.ieee.org/abstract/document/7280496/
+0,Learning classifier system with deep autoencoder,,2016,http://ieeexplore.ieee.org/abstract/document/7744396/
+0,An Intelligent Fault Diagnosis Approach with Unsupervised Feature Learning by Stacked Denoising Autoencoder,C de Silva,2017,http://digital-library.theiet.org/content/journals/10.1049/iet-smt.2016.0423
+0,Representation learning via Dual-Autoencoder for recommendation,F Zhuang et al.,2017,http://www.sciencedirect.com/science/article/pii/S0893608017300655
+0,The Application of Autoencoder in Classification of the Eye Movement Data,,2015,http://pos.sissa.it/archive/conferences/264/001/ISCC2015_001.pdf
+0,A Benchmark Dataset and Saliency-guided Stacked Autoencoder for Video-based Salient Object Detection,,2016,https://arxiv.org/abs/1611.00135
+0,Land-Use Classification with Remote Sensing Image Based on Stacked Autoencoder,,2016,http://ieeexplore.ieee.org/abstract/document/7823511/
+0,License Plate Detection Based on Sparse Auto-Encoder,,2015,http://ieeexplore.ieee.org/abstract/document/7469174/
+0,A hierarchical feature learning for isolated Farsi handwritten digit recognition using sparse autoencoder,,2016,http://ieeexplore.ieee.org/abstract/document/7529492/
+0,Redundancy embedding for search space reduction using deep auto-encoder: Application to collision-free posture generation,S Noda,2016,http://ieeexplore.ieee.org/abstract/document/7759545/
+0,Learning 3D faces from 2D images via Stacked Contractive Autoencoder,,2017,http://www.sciencedirect.com/science/article/pii/S0925231217301431
+0,Radar HRRP recognition based on sparse denoising autoencoder and multi-layer perceptron deep model,,2016,http://ieeexplore.ieee.org/abstract/document/7809986/
+0,Content Based Image Retrieval system using Wavelet Transformation and multiple input multiple task Deep Autoencoder,B Nutter,2016,http://ieeexplore.ieee.org/abstract/document/7459184/
+0,Anomaly Detection of Spectrum in Wireless Communication via Deep Autoencoder,,2016,http://link.springer.com/chapter/10.1007/978-981-10-3023-9_42
+0,Extract Features Using Stacked Denoised Autoencoder,L Shang,2014,http://link.springer.com/chapter/10.1007/978-3-319-09330-7_2
+0,"Investigation into the Use of Autoencoder Neural Networks, Principal Component Analysis and Support",VN Marivate et al.,2008,
+0,Competitive and Penalized Clustering Auto-encoder,Y Cheung,2015,https://pdfs.semanticscholar.org/f5c2/a68f51a02ab2207232bc669bc957ad5ba580.pdf
+0,Audio Source Separation Using a Deep Autoencoder,,2014,https://arxiv.org/abs/1412.7193
+0,A water quality assessment method based on sparse autoencoder,,2015,http://ieeexplore.ieee.org/abstract/document/7338853/
+0,Model-free controller design for discrete-valued input systems based on autoencoder,,2016,http://ieeexplore.ieee.org/abstract/document/7749181/
+0,Research on denoising sparse autoencoder,,2016,http://link.springer.com/article/10.1007/s13042-016-0550-y
+0,Biased Reactions to Abnormal Stock Prices Detected by Autoencoder,,2016,https://www.jstage.jst.go.jp/article/jsp/20/4/20_157/_article/-char/ja/
+0,A Deep Learning Method Combined Sparse Autoencoder with SVM,,2015,http://ieeexplore.ieee.org/abstract/document/7307823/
+0,A Real-Time Visual Tracking Approach Using Sparse Autoencoder and Extreme Learning Machine,,2015,http://www.worldscientific.com/doi/abs/10.1142/S2301385015400038
+0,Seismic facies recognition based on prestack data using deep convolutional autoencoder,,2017,https://arxiv.org/abs/1704.02446
+0,Autoencoder Predicting Estrogenic Chemical Substances (APECS): An improved approach for screening potentially estrogenic chemicals using in vitro  …,LD Burgoon,2017,http://www.sciencedirect.com/science/article/pii/S2468111317300166
+0,Early diagnosis of Alzheimer's disease: A multi-class deep learning framework with modified k-sparse autoencoder classification,M Paul,2016,http://ieeexplore.ieee.org/abstract/document/7804459/
+0,Sparse Denoising Autoencoder Application in Identification of Counterfeit Pharmaceutical,,2016,
+0,Coupled deep auto-encoder with image edge information for image super-resolution,,2016,http://ieeexplore.ieee.org/abstract/document/7832093/
+0,Enhancing temporal alignment with autoencoder regularization,,2016,http://ieeexplore.ieee.org/abstract/document/7727840/
+0,Learning Inverse Mapping by Autoencoder based Generative Adversarial Nets,,2017,https://arxiv.org/abs/1703.10094
+0,SMS Spam Filtering using Probabilistic Topic Modelling and Stacked Denoising Autoencoder,N Al Moubayed et al.,2016,http://link.springer.com/chapter/10.1007/978-3-319-44781-0_50
+0,An Auto-Encoder for Learning Conversation Representation Using LSTM,B Hu,2015,http://link.springer.com/chapter/10.1007/978-3-319-26532-2_34
+0,Deep metric learning autoencoder for nonlinear temporal alignment of human motion,,2016,http://ieeexplore.ieee.org/abstract/document/7487366/
+0,Scene classification based on a hierarchical convolutional sparse auto-encoder for high spatial resolution imagery,Y Zhong & B Zhao,2017,http://www.tandfonline.com/doi/abs/10.1080/01431161.2016.1266059
+0,Model Predictive Control implementation on neural networks using denoising autoencoder,,2016,http://ieeexplore.ieee.org/abstract/document/7844234/
+0,Deep Feature Learning for Tibetan Speech Recognition using Sparse Auto-encoder,L Wang,2015,http://www.atlantis-press.com/php/download_paper.php?id=22307
+0,Pareto-Optimal Multi-Objective Dimensionality Reduction Deep Auto-Encoder for Mammography Classification,J Kawahara & B Miles,2017,http://www.sciencedirect.com/science/article/pii/S0169260716309269
+0,Sparse Autoencoder for Facial Expression Recognition,,2015,http://ieeexplore.ieee.org/abstract/document/7518455/
+0,Unsupervised Feature Extraction with Autoencoder Trees,O İrsoy & E Alpaydın,2017,http://www.sciencedirect.com/science/article/pii/S0925231217304186
+0,1000 Fps Highly Accurate Eye Detection with Stacked Denoising Autoencoder,L Wang,2015,http://link.springer.com/chapter/10.1007/978-3-662-48570-5_23
+0,Dimensionality Reduction and Image Reconstruction Based on Continuous Autoencoder Network,,2010,http://en.cnki.com.cn/Article_en/CJFDTOTAL-SJCJ201003011.htm
+0,Denoising auto-encoder based image enhancement for high resolution sonar image,,2017,http://ieeexplore.ieee.org/abstract/document/7890316/
+0,Semi-supervised Stacked Label Consistent Autoencoder for Reconstruction and Analysis of Biomedical Signals,A Majumdar et al.,2016,http://ieeexplore.ieee.org/abstract/document/7752836/
+0,Spectral–spatial classification of hyperspectral images using trilateral filter and stacked sparse autoencoder,,2017,http://remotesensing.spiedigitallibrary.org/article.aspx?articleid=2607836
+0,Adaptive Stacked Denoising Autoencoder for Work Mode Identification of Airborne Active Phased Array Radar,,2016,http://link.springer.com/chapter/10.1007/978-981-10-2663-8_24
+0,Auto-encoder based modeling of combustion system for circulating fluidized bed boiler,,2015,http://ieeexplore.ieee.org/abstract/document/7338946/
+0,Echo-state conditional variational autoencoder for anomaly detection,,2016,http://ieeexplore.ieee.org/abstract/document/7727309/
+0,Procedural modeling using autoencoder neural networks,R Mech,2015,http://www.google.com/patents/US20170004397
+0,Autoencoder Regularized Network For Driving Style Representation Learning,W Dong & C Li,2017,https://arxiv.org/abs/1701.01272
+0,Whispered speech recognition using deep denoising autoencoder,,2017,http://www.sciencedirect.com/science/article/pii/S0952197616302391
+0,"A Novel Tracking and Recognition Algorithm Using"" Continuous Autoencoder"" Network",,2009,http://ieeexplore.ieee.org/abstract/document/5366549/
+0,Auto-Encoder based ECG Signal Feature Extraction for Real-Time Detection of Cardiac Arrhythmias,A Serackis,2016,http://biomed.ktu.lt/index.php/BME/article/view/3399
+0,Learning from Synthetic Data Using a Stacked Multichannel Autoencoder,X Zhang et al.,2015,http://ieeexplore.ieee.org/abstract/document/7424358/
+0,Detection and Classification of Transmission Line Faults Based on Unsupervised Feature Learning and Convolutional Sparse Autoencoder,K Chen,2016,http://ieeexplore.ieee.org/abstract/document/7539352/
+0,Effective Auto Encoder For Unsupervised Sparse Representation,,2015,http://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=1484&context=oa_theses
+0,A modulation classification method in cognitive radios system using stacked denoising sparse autoencoder,,2017,http://ieeexplore.ieee.org/abstract/document/7885992/
+0,Offline Urdu Nastaleeq optical character recognition based on stacked denoising autoencoder,S Rasheed,2017,http://ieeexplore.ieee.org/abstract/document/7839765/
+0,Classification of Epileptic EEG Signals with Stacked Sparse Autoencoder Based on Deep Learning,,2016,http://link.springer.com/chapter/10.1007/978-3-319-42297-8_74
+0,Deep Representations Based on Sparse Auto-Encoder Networks for Face Spoofing Detection,,2016,http://link.springer.com/chapter/10.1007/978-3-319-46654-5_68
+0,An Autoencoder-Based Image Descriptor for Image Matching and Retrieval,,2016,https://etd.ohiolink.edu/!etd.send_file?accession=wright1460520086&disposition=attachment
+0,Sentiment Analysis Using Semi-Supervised Recursive Autoencoder,,2015,http://cse.iitk.ac.in/users/cs365/2015/_submissions/vinay/report.pdf
+0,Robust feature learning by improved auto-encoder from non-Gaussian noised images,,2015,http://ieeexplore.ieee.org/abstract/document/7294537/
+0,Deep Feature Learning for Dummies: A Simple Auto-Encoder Training Method Using Particle Swarm Optimisation,M Bennamoun & R Togneri,2017,http://www.sciencedirect.com/science/article/pii/S0167865517300910
+0,Robust transfer learning in multi-robot systems by using sparse autoencoder,LV Utkin,2016,http://ieeexplore.ieee.org/abstract/document/7519735/
+0,An Autoencoder-Based Image Descriptor for Image Matching,AA Goshtasby,2016,http://search.proquest.com/openview/1d6c43922b81d4fb9eed4dacef3378ee/1?pq-origsite=gscholar&cbl=1976345
+0,Multi-digit image synthesis using recurrent conditional variational autoencoder,,2016,http://ieeexplore.ieee.org/abstract/document/7727223/
+0,Discriminative autoencoder for detection and recognition of vehicle in aerial imagery,F Jurie,2015,
+0,A Vehicle Type Recognition Method based on Sparse Auto Encoder,,2015,http://www.atlantis-press.com/php/download_paper.php?id=22522
+0,Safety evaluation of the tailing pond based on stacked auto-encoder,,2015,http://en.cnki.com.cn/Article_en/CJFDTOTAL-ZJGD201503019.htm
+0,Trust-aware Top-N Recommender Systems with Correlative Denoising Autoencoder,,2017,https://arxiv.org/abs/1703.01760
+0,Instance-Wise Denoising Autoencoder for High Dimensional Data,,2016,https://www.hindawi.com/journals/mpe/2016/4365372/abs/
+0,Detection of Double Compressed AMR Audio Using Stacked Autoencoder,J Huang,2017,http://ieeexplore.ieee.org/abstract/document/7707437/

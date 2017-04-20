@@ -6,6 +6,8 @@
 <!-- Tooltip example from http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html -->
 <!-- Coding style based on http://gist.github.com/mbostock/5977197 -->
 
+<!-- <link rel="stylesheet" href="/img/d3style.css"/> -->
+
 <style>
 body {
   font: 11px sans-serif;
@@ -25,8 +27,10 @@ body {
 .tooltip {
   position: absolute;
   width: 200px;
-  height: 28px;
+  height: 40px;
   pointer-events: none;
+  font-size: 16px;
+  fill: LightGoldenRodYellow;
 }
 </style>
 <body>
@@ -34,8 +38,12 @@ body {
 
 <script>
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    width = 800 - margin.left - margin.right,
+    height = 600 - margin.top - margin.bottom;
+    
+function powerOfTen(d) {
+   return d / Math.pow(10, Math.ceil(Math.log(d) / Math.LN10 - 1e-12)) === 1;
+   }
 
 /* 
  * value accessor - returns the value to encode for a given data object.
@@ -52,7 +60,8 @@ var xValue = function(d) { return d.year;}, // data -> value
 
 // setup y
 var yValue = function(d) { return d["num_citations"];}, // data -> value
-    yScale = d3.scale.linear().range([height, 0]), // value -> display
+    yScale = d3.scale.log().range([height, 0]),
+        // value -> display
     yMap = function(d) { return yScale(yValue(d));}, // data -> display
     yAxis = d3.svg.axis().scale(yScale).orient("left");
 
@@ -94,24 +103,35 @@ d3.csv("autoencoders.csv", function(error, data) {
 
   // don't want dots overlapping axis, so add in buffer to data domain
   xScale.domain([d3.min(data, xValue)-1, d3.max(data, xValue)+1]);
-  yScale.domain([d3.min(data, yValue)-1, d3.max(data, yValue)+1]);
+  yScale.domain([0.8, 4870]);
+  console.log("max", d3.max(data, yValue));
+  // d3.max(data, yValue)+1)]);
+  // yScale.domain([d3.min(data, yValue)-1, d3.max(data, yValue)+1]);
 
   // x-axis
   svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
-    .append("text")
+      .append("text")
       .attr("class", "label")
       .attr("x", width)
       .attr("y", -6)
       .style("text-anchor", "end")
       .text("Year");
-
   // y-axis
   svg.append("g")
       .attr("class", "y axis")
       .call(yAxis)
+      .selectAll(".tick text")
+      .text(null)
+      .filter(powerOfTen)
+      .text(10)
+      .append("tspan")
+      .attr("dy", "-.7em")
+      .text(function(d) { return Math.round(Math.log(d) / Math.LN10); });
+
+/*  
     .append("text")
       .attr("class", "label")
       .attr("transform", "rotate(-90)")
@@ -120,11 +140,15 @@ d3.csv("autoencoders.csv", function(error, data) {
       .style("text-anchor", "end")
       .text("Citations");
 
+*/
   // draw dots
  //      .style("fill", function(d) { return color(cValue(d));}) 
   svg.selectAll(".dot")
-      .data(data)
-    .enter().append("circle")
+      .data(data
+            .filter(function(d) { return yValue(d)>0 })
+           )
+     // 
+      .enter().append("circle")
       .style("stroke", "red")
       .attr('fill-opacity', 0.4)
       .attr("xlink:href", function(d){return d.url;}) 
@@ -133,7 +157,10 @@ d3.csv("autoencoders.csv", function(error, data) {
         window.open( url );
          })
       .attr("class", "dot")
-      .attr("r", Math.sqrt(16))
+      .attr("r", function(d){
+              return (Math.log( 3 + yValue(d) ));
+          })
+  // Math.sqrt(16))
       .attr("cx", xMap)
       .attr("cy", yMap)
       .style("fill", "salmon") 
@@ -144,11 +171,13 @@ d3.csv("autoencoders.csv", function(error, data) {
             div.transition()
                 .duration(200)  
                 .style("opacity", .9);
-            div.html(d["title"] + "<br/> (" + xValue(d) 
-                 + ", " + yValue(d) + ")" 
+            div.html(d["title"] + "<br/>" + d["authors"] + " (" + xValue(d) 
+                 + ") -- <i>" + yValue(d) + "</i>" 
                      )
-               .style("left", (d3.event.pageX + 5) + "px")
-               .style("top", (d3.event.pageY - 28) + "px");
+               .attr("class", "tooltip")  
+               .style("left", (margin["right"]*3) + "px")
+               .style("top", (30) + "px");
+               //.style("top", (d3.event.pageY - 40) + "px");
       });
 //      .on("mouseout", function(d) {
 //          tooltip.transition()

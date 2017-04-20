@@ -16,10 +16,10 @@ This first-order analysis though not looking into clustering of papers or applie
 
 ### a clickable `Citation` ~ `Year` plot for Autoencoder-related papers
 
-<iframe src="{{ site.url }}/img/autoenc_scatter_d3.html" marginwidth="0" marginheight="0" scrolling="no"  width="960" height="500"></iframe>
+<p align="center">
+<iframe src="{{ site.url }}/img/autoenc_scatter_d3.html" marginwidth="0" marginheight="0" scrolling="no"  width="800" height="600"></iframe>
+</p>
 
-
----
 
 <br/>
 
