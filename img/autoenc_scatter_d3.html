@@ -20,6 +20,15 @@ body {
   shape-rendering: crispEdges;
 }
 
+
+.axisSteelBlue text{
+      fill: steelblue;
+  }
+
+.axisRed text{
+    fill: red;
+}
+
 .dot {
   stroke: #000;
 }
@@ -34,10 +43,10 @@ body {
 }
 </style>
 <body>
-<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="//d3js.org/d3.v4.min.js"></script>
 
 <script>
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
+var margin = {top: 20, right: 40, bottom: 30, left: 40},
     width = 800 - margin.left - margin.right,
     height = 600 - margin.top - margin.bottom;
     
@@ -54,16 +63,23 @@ function powerOfTen(d) {
 
 // setup x 
 var xValue = function(d) { return d.year;}, // data -> value
-    xScale = d3.scale.linear().range([0, width]), // value -> display
+    xScale = d3.scaleLinear().range([0, width]), // value -> display
     xMap = function(d) { return xScale(xValue(d));}, // data -> display
-    xAxis = d3.svg.axis().scale(xScale).tickFormat(d3.format("d")).orient("bottom");
+    xAxis = d3.axisBottom().scale(xScale).tickFormat(d3.format("d"));
 
 // setup y
 var yValue = function(d) { return d["num_citations"];}, // data -> value
-    yScale = d3.scale.log().range([height, 0]),
+    yScale = d3.scaleLog().range([height, 0]),
         // value -> display
     yMap = function(d) { return yScale(yValue(d));}, // data -> display
-    yAxis = d3.svg.axis().scale(yScale).orient("left");
+    yAxis = d3.axisLeft().scale(yScale);
+
+var yValueCounts = function(d) { return d["value"];}, // data -> value
+    yScaleCounts = d3.scaleLinear().range([height, 0]),
+        // value -> display
+    yMapCounts = function(d) { return yScaleCounts(yValueCounts(d));}, 
+        // data -> display
+    yAxisCounts = d3.axisRight().scale(yScaleCounts);
 
 // setup fill color
 var cValue =  "#FA8072";
@@ -75,9 +91,8 @@ var cValue =  "#FA8072";
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
-  .append("g")
+    .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
 
 
 // Define 'div' for tooltips
@@ -91,8 +106,26 @@ var tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
+
 // load data
 d3.csv("autoencoders.csv", function(error, data) {
+  var line_ =  d3.line()
+    .x(function(d) { console.log(d.year + ": " + yValueCounts(d), yMapCounts(d));
+                     return xMap(d); })
+    .y(d => yMapCounts(d));
+//    .curve(d3.curveBasis);
+
+  var nested_data = d3.nest()
+    .key(d => d.year)
+    .rollup(v => v.length)
+    .entries(data)
+    .map(function(g) {return {year: g.key, value: g.value}})
+    .sort(function(x, y){
+           return d3.ascending(x.year, y.year);
+       })
+     ;
+    //.map(g => {year: +g.key, value: g.value});
+
 
   // change string (from CSV) into number format
   data.forEach(function(d) {
@@ -103,8 +136,11 @@ d3.csv("autoencoders.csv", function(error, data) {
 
   // don't want dots overlapping axis, so add in buffer to data domain
   xScale.domain([d3.min(data, xValue)-1, d3.max(data, xValue)+1]);
-  yScale.domain([0.8, 4870]);
-  console.log("max", d3.max(data, yValue));
+  yScale.domain([0.8, d3.max(data, yValue)]);
+  yScaleCounts.domain([d3.min(nested_data, yValueCounts),
+         d3.max(nested_data, yValueCounts)]);
+  console.log("min", d3.min(nested_data, yValueCounts) );
+  // console.log("max", d3.max(data, yValue));
   // d3.max(data, yValue)+1)]);
   // yScale.domain([d3.min(data, yValue)-1, d3.max(data, yValue)+1]);
 
@@ -119,9 +155,10 @@ d3.csv("autoencoders.csv", function(error, data) {
       .attr("y", -6)
       .style("text-anchor", "end")
       .text("Year");
+
   // y-axis
   svg.append("g")
-      .attr("class", "y axis")
+      .attr("class", "axisRed")
       .call(yAxis)
       .selectAll(".tick text")
       .text(null)
@@ -129,25 +166,56 @@ d3.csv("autoencoders.csv", function(error, data) {
       .text(10)
       .append("tspan")
       .attr("dy", "-.7em")
+      .text("Citations")
       .text(function(d) { return Math.round(Math.log(d) / Math.LN10); });
 
-/*  
-    .append("text")
+  // y-axis
+  svg.append("g")
+      .attr("class", "axisSteelBlue")
+      .attr("transform", "translate(" + width + " ,0)")  
+      .call(yAxisCounts)
+      .selectAll(".tick text")
+      .append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", -6)
+      .style("text-anchor", "end")
+      .text("Papers published");
+
+  svg.append("text")
       .attr("class", "label")
       .attr("transform", "rotate(-90)")
+      .attr("fill", "red")
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
       .text("Citations");
 
-*/
-  // draw dots
- //      .style("fill", function(d) { return color(cValue(d));}) 
+  svg.append("text")
+      .attr("class", "label")
+      .attr("transform", "rotate(-90)")
+      .attr("fill", "steelblue")
+      .attr("y", width-20)
+      .attr("x", -6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Published papers");
+
+  svg.append("path")
+      .data([nested_data])
+  //[[{"year":2000, "value":30}, {"year":2010, "value":100}]])
+      .attr("class", "line")
+      .attr("stroke", "steelblue")
+      .attr("stroke-width", 4)
+      .attr("stroke-linejoin", "round")
+      .attr("stroke-linecap", "round")
+      .attr("fill", "none")
+      .attr("d", line_);
+
   svg.selectAll(".dot")
       .data(data
             .filter(function(d) { return yValue(d)>0 })
            )
-     // 
       .enter().append("circle")
       .style("stroke", "red")
       .attr('fill-opacity', 0.4)
@@ -160,7 +228,6 @@ d3.csv("autoencoders.csv", function(error, data) {
       .attr("r", function(d){
               return (Math.log( 3 + yValue(d) ));
           })
-  // Math.sqrt(16))
       .attr("cx", xMap)
       .attr("cy", yMap)
       .style("fill", "salmon") 
@@ -171,8 +238,8 @@ d3.csv("autoencoders.csv", function(error, data) {
             div.transition()
                 .duration(200)  
                 .style("opacity", .9);
-            div.html(d["title"] + "<br/>" + d["authors"] + " (" + xValue(d) 
-                 + ") -- <i>" + yValue(d) + "</i>" 
+            div.html(d["title"] + "<br/>  <i>" + d["authors"] + " (" + xValue(d) 
+                 + ") </i> — " + yValue(d) + "" 
                      )
                .attr("class", "tooltip")  
                .style("left", (margin["right"]*3) + "px")
@@ -184,6 +251,18 @@ d3.csv("autoencoders.csv", function(error, data) {
 //               .duration(1500)
 //               .style("opacity", 0);
 //      });
+
+/*
+  svg.append("path")
+      .data([nested_data])
+      .attr("class", "line")
+      //.attr("fill", "none")
+      //.attr("stroke", "steelblue")
+      //.attr("stroke-linejoin", "round")
+      //.attr("stroke-linecap", "round")
+      //.attr("stroke-width", 1.5)
+      .attr("d", line_);
+*/
 
 });
 

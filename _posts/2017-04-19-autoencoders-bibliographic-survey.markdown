@@ -19,6 +19,9 @@ Next steps can be to look into clustering of papers and compare applied vs funda
 ### a clickable `Citation` ~ `Year` plot for Autoencoder-related papers
 
 <p align="center">
+<!-- 
+<iframe src="{{ site.url }}/img/testd3.html" marginwidth="0" marginheight="0" scrolling="no"  width="800" height="600"></iframe>
+-->
 <iframe src="{{ site.url }}/img/autoenc_scatter_d3.html" marginwidth="0" marginheight="0" scrolling="no"  width="800" height="600"></iframe>
 </p>
 
