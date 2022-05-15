@@ -32,12 +32,14 @@ After we find a Green function to our problem, the promise is that we will be ab
 A solution is a generalized (i.e. discontinuous) Green function. In our case, we shall assume an inifinite-space domain, i.e. our space is not confined and thus the substance won't be accumulating within some boundaries.
 For these conditions we will have:
 
-<img src="https://render.githubusercontent.com/render/math?math=\Theta(t)\left(\frac{1}{4\pi kt}\right)^{d/2} e^{-r^2/4kt}">, where *d* is the dimensionality of the space (e.g. d=3 for 3D).
+<img src="https://render.githubusercontent.com/render/math?math=\Theta(t)\left(\frac{1}{4\pi kt}\right)^{d/2} e^{-r^2/4kt}">
 
-<img src="https://render.githubusercontent.com/render/math?math=r=\sqrt{x^{2} + y^{2} + z^{2}}">
+where *d* is the dimensionality of the space (e.g. *d=3* for 3D).
 
-Thus the equation can be solved by convolving the initial distribution $u$ with a causal, "forward-looking" Gaussian as signified by a time-dependent Heaviside function multiplier.
-Note: this Heaviside function looks like a funny formal requirement now. Why would one integrate for times befor $t=0$? We will get to this later.
+<img src="https://render.githubusercontent.com/render/math?math=r = \sqrt{x^{2} %2B y^{2} %2B z^{2}}">
+
+Thus the equation can be solved by convolving the initial distribution *u* with a causal, "forward-looking" Gaussian as signified by a time-dependent Heaviside function multiplier.
+Note: this Heaviside function looks like a funny formal requirement now. Why would one integrate for times before *t=0*? We will get to this later.
 
 ## Diffusion Applied to Images
 
@@ -45,18 +47,83 @@ There are two ways to apply diffusion to images, and for the purpose of the Gene
 One that may be least intuitive.
 These two ways differ by what we treat as a spatial coordinate.
 
-### Diffusion as Gaussian Blur
-This is not the way how Generative Diffusion Models are concerned with diffusion on images, but this is a classical example you might have learned, so let's clear it out of the way.
+### Diffusion as Gaussian Blur over Pixel Intensities within an Image
+This is **not** the way how Generative Diffusion Models are concerned with diffusion on images, but this is a classical example you might have learned, so let's clear it out of the way.
 Here we deal with a 2D space, with our *x* and *y* coordinates being the image width and height coordinates.
 Our equivalent of "concentration" is pixel intensities *C(x, y)*.
-In this case, diffusion will be performed by applying a well known Gaussian filter *G(x-., y-.)*.
+In this case, diffusion will be performed by applying a well known Gaussian filter *G(x-., y-.)*, which will blur the "dye".
 
-### Diffusion on Pixel Intensities
+### Diffusion on Images within an Image Space
 This is the way Generative Diffusion Models treats images. Here our dimensions are plain pixel indices. 
-E.g. if we have a 2*2 image, easiest way to think about the variables is as x_1, x_2, x_3, x_4.
-Or more generally, for an H*W (for height by width) image, we will have variables x_1 through x_{H*W}.
+E.g. if we have a 2×2 image, easiest way to think about the variables is as 
+<img src="https://render.githubusercontent.com/render/math?math=x_1, x_2, x_3, x_4">.
 
-Diffusion won't be preserving concentration by smearing it to neighboring pixels. Instead, think of an image as a particle in this H*W space.
+Or more generally, for an H×W (for height by width) image, we will have variables 
+<img src="https://render.githubusercontent.com/render/math?math=x_{1}"> through 
+<img src="https://render.githubusercontent.com/render/math?math=x_{H \times W}">.
 
+Diffusion in this sense is not about smearing pixel intensities on H×W 2D canvas.
+Instead, think of each image as one particle in this H×W space. 
+Or H×W×C space. This can be, for example, a space of all possible 128×128 RGB images with dimensionality of 128×128×3 = 49152. 
 
+Thus we will discuss not the concentration of dye within each pixel, but instead displacement of image-particles around image-space and at times about concentration of images.
 
+What does this notion of concentration of images entail? Think of all possible combinations of pixel intensities. Obviously not all of them are valid images. Most of them will look like "noise" to a human eye. Or as something "unnatural". But some points in image space and area around them are valid natural images, or something we would recognize as a painting or a piece of art.
+
+The task of our generative model *G* is to find a location within a "valid" manifold (think of them as islands) when thrown into the vast image space:
+
+<img src="https://render.githubusercontent.com/render/math?math=G: \mathbb{R}^D (\mathrm{seed}) \rightarrow \mathbb{R}^D (\mathrm{valid})">
+
+where both images live in the same space: the "valid" image (observed or generated -- the task is to match these distributions)
+
+<img src="https://render.githubusercontent.com/render/math?math=x_0 ~ \mathbb{R}^D">
+
+and the latent random image, which we take as a seed for generation:
+
+<img src="https://render.githubusercontent.com/render/math?math=x_T ~ \mathbb{R}^D">
+
+or in terms of probability densities in the image space:
+
+<img src="https://render.githubusercontent.com/render/math?math=q(x_0) = q(x_T) \cdot \displaystyle \prod q(x_{t-1}| x_t)">
+
+Where each generation *G* is one of realizations or paths from the conditional probability distribution 
+<img src="https://render.githubusercontent.com/render/math?math=\prod q(x_{t-1}| x_t)">.
+
+## Learning a Generator
+
+The task of any generator model is being able to generate samples that look "real" or "valid" starting from a random seed. 
+I'll use "valid" to make sure that unrealistic or unnatural i.e. art-like images "feel included".
+
+To this end, as in most probabilistic generative models, the model is trained to maximize the log-likelihood of the model:
+
+<img src="https://render.githubusercontent.com/render/math?math=\mathbb{E} \left[-\log P_\theta(x_0) \right]">
+
+That is we want the model to assign high probabilities to "valid" samples. In the light of our intent of sampling from the model, we may also write it as
+
+<img src="https://render.githubusercontent.com/render/math?math=\mathbb{E} \left[-\log P_\theta(\hat{x}_0) \right]">
+
+The expectation is casted to be with respect to the data and forward-sampled latent variables (per encoder *q*).
+That is we optimize the decoder based on observed data. A nice property is that our decoder and encoder are the same thing (that is they share same parameters). In other words, the model is reversible.
+
+### A theoretical note: Diffusion Reversal on Noisy Data
+So how does one undo diffusion? Strictly speaking there is no such a process in nature, although phase separation may be described as such to some degree.
+
+Imagine putting a drop of dye in bathtub full of water and wating till it completely dissolves. Now, how can you tell where the drop was initially? If you don't let it dissolve completely you may be able to a degree. But the further you go, and the more noise you have (think someone pushing the bathtub), the harder it gets to undo it.
+
+Theoretically it is known that reverse diffusion from a noisy input (i.e. object that has undergone diffusion with added noise) is an ill-posed problem.
+Note that solving reverse diffusion without noise is not interesting or useful as we are interested in diversity of image generations.
+This problem is known from literature on joint image denoising and optics correction, which arises for instance in microscopy.
+
+In general, ill-posedness means one or more of the following task properties:
+- the task has no solution 
+- the task has multiple solutions
+- the solution is highly sensitive to the initial conditions (i.e. input)
+
+In this case, solutions luckily exist, but we are facing the second and the third issues. 
+That is there is no general-case undoing of diffusion. In order to undo diffusion, one needs a prior about what the initial object was.
+We have that knowledge from our empirical distribution *q(x_0)* and we will be "baking in" the prior into our generator function by training it.
+
+## Practical Aspects:  Diffusion Reversal on Noisy Data
+
+An actual model component that will be performing denoising and reverse diffusion will be a [U-net (Ronneberger, Fischer, Brox, 2015) convolutional neural network](https://en.wikipedia.org/wiki/U-Net). The sampling and inference mechanism around it provides a probabilisticall tractable and optimal way to do exactly that: learning to extracts patterns out of noise.  
+Going one step deeper, this is actually done in reverse in this paper implementation: it is not the pattern that is extracted out of noise, but noise that is extracted out of noise. Yes, you read it correctly. We start with noise of ball-shaped covariance (that is all axes-pixels are seeded with noise of equal intensity). And then the model chisels away what model it deems "extra" noise to reveal the pattern.
