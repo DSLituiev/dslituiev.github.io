@@ -89,7 +89,7 @@ or in terms of probability densities in the image space:
 Where each generation *G* is one of realizations or paths from the conditional probability distribution 
 <img src="https://render.githubusercontent.com/render/math?math=\prod q(x_{t-1}| x_t)">.
 
-## Learning a Generator
+## Learning a Diffusion Reversing Generator
 
 The task of any generator model is being able to generate samples that look "real" or "valid" starting from a random seed. 
 I'll use "valid" to make sure that unrealistic or unnatural i.e. art-like images "feel included".
@@ -105,7 +105,7 @@ That is we want the model to assign high probabilities to "valid" samples. In th
 The expectation is casted to be with respect to the data and forward-sampled latent variables (per encoder *q*).
 That is we optimize the decoder based on observed data. A nice property is that our decoder and encoder are the same thing (that is they share same parameters). In other words, the model is reversible.
 
-### A theoretical note: Diffusion Reversal on Noisy Data
+### A theoretical Note: Challenges of Diffusion Reversal on Noisy Data
 So how does one undo diffusion? Strictly speaking there is no such a process in nature, although phase separation may be described as such to some degree.
 
 Imagine putting a drop of dye in bathtub full of water and wating till it completely dissolves. Now, how can you tell where the drop was initially? If you don't let it dissolve completely you may be able to a degree. But the further you go, and the more noise you have (think someone pushing the bathtub), the harder it gets to undo it.
@@ -114,7 +114,7 @@ Theoretically it is known that reverse diffusion from a noisy input (i.e. object
 Note that solving reverse diffusion without noise is not interesting or useful as we are interested in diversity of image generations.
 This problem is known from literature on joint image denoising and optics correction, which arises for instance in microscopy.
 
-In general, ill-posedness means one or more of the following task properties:
+In general, by definition an ill-posed task is such that has one or more of the following nasty properties:
 - the task has no solution 
 - the task has multiple solutions
 - the solution is highly sensitive to the initial conditions (i.e. input)
@@ -123,7 +123,17 @@ In this case, solutions luckily exist, but we are facing the second and the thir
 That is there is no general-case undoing of diffusion. In order to undo diffusion, one needs a prior about what the initial object was.
 We have that knowledge from our empirical distribution *q(x_0)* and we will be "baking in" the prior into our generator function by training it.
 
-## Practical Aspects:  Diffusion Reversal on Noisy Data
+### Practical Aspects: Implementation of Diffusion Reversal on Noisy Data
 
-An actual model component that will be performing denoising and reverse diffusion will be a [U-net (Ronneberger, Fischer, Brox, 2015) convolutional neural network](https://en.wikipedia.org/wiki/U-Net). The sampling and inference mechanism around it provides a probabilisticall tractable and optimal way to do exactly that: learning to extracts patterns out of noise.  
-Going one step deeper, this is actually done in reverse in this paper implementation: it is not the pattern that is extracted out of noise, but noise that is extracted out of noise. Yes, you read it correctly. We start with noise of ball-shaped covariance (that is all axes-pixels are seeded with noise of equal intensity). And then the model chisels away what model it deems "extra" noise to reveal the pattern.
+An actual model component that will be performing denoising and reverse diffusion will be a [U-net (Ronneberger, Fischer, Brox, 2015) convolutional neural network](https://en.wikipedia.org/wiki/U-Net). The sampling and inference mechanism around it provides a probabilisticall tractable and optimal way to do exactly that: learning to extracts patterns out of noise. 
+
+Going one step deeper, this is actually done other-way-around in this paper implementation: it is not the pattern that is extracted out of noise, but noise that is extracted out of noise. Yes, you read it correctly. We start with noise 
+<img src="https://render.githubusercontent.com/render/math?math=\epsilon_T">
+of ball-shaped covariance (that is all axes-pixels are seeded with noise of equal intensity). And then the model chisels away what it deems "extra" noise
+<img src="https://render.githubusercontent.com/render/math?math=\hat{\epsilon_t}"> at each step to reveal the pattern. 
+
+#### Markov chain
+
+Additionally, the process is not a single-step noise-to-image. It uses a Markov chain *T*-depth iterative encoder-decoder. Luckily multiple variables can be calculated analytically. 
+
+
