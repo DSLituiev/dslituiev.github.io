@@ -1,20 +1,30 @@
 # Diffusion Probability Models behind DALL-E2
 I decided to write this blog while on my stay in Switzerland because (1) DALL-E2 is cool and I wanted to understand it better (2) I studied diffusion modelling here a while ago and I believe diffusion is a cool model, and (3) the ideas behind this paper I cool but need some time to understand and I wanted to share my path to getting it.
 
+# References
+1. Sohl-Dickstein, Weiss, Maheswaranathan, Ganguli (2015) Deep Unsupervised Learning using Nonequilibrium Thermodynamics, [Arxiv](https://arxiv.org/pdf/1503.03585.pdf)
+2. Ho, Jain, Abbeel (2020) Denoising Diffusion Probabilistic Models, [Arxiv](https://arxiv.org/pdf/2006.11239.pdf)
+3. Dhariwal and Nichol (2021) Diffusion Models Beat GANs on Image Synthesis,  [Arxiv](https://arxiv.org/pdf/2105.05233.pdf)
+
+# Notation
+
+I will be using partial derivatives and occasionally I will use mapping notation where *f(x) = y* can be re-written as 
+<img src="https://render.githubusercontent.com/render/math?math=f \, : x \rightarrow y">, which reads "function *f* maps *x* to *y*.  
+
 # Diffusion equation
 Diffusion in physical world is a process of mass redistribution in the space due to stochastic motion. Classically one talks about random walk due to thermal motion of particles (including molecules). One can also think of other instances or models of diffusion due to undirected motion like animals wondering around. That's a microscopic view of diffusion. One of the first works on connecting microscopic view to the macroscopic was done by Albert Einstein in 1905. He looks at one-dimensional displacement of a liquid-suspended particle. One of the achievements of his paper is formulation of a partial-differential equation (PDE) for diffusion. Einstein achieves it by contemplating infinitesimal changes of particle concentrations across space and time. The classical (linear homogenous) diffusion equation thus reads:
 
-<img src="https://render.githubusercontent.com/render/math?math=\frac{\partial}{\partial t} u = D \cdot \frac{\partial^2}{\partial x^2} u">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{\partial}{\partial t} u = D \cdot \frac{\partial^2}{\partial x^2} u %2B f(x,t)">
+
+Where *f(x,t)* is a function that describes the source of the matter. 
 
 That is an infinitesimal time-dependent change in concentration will be proportional to its second-order spatial gradient (Laplacian). Another way to look at this equation is by putting all the differential terms in the left hand side:
 
-<img src="https://render.githubusercontent.com/render/math?math=\left[ \frac{\partial}{\partial t} - D \cdot \frac{\partial^2}{\partial x^2} \right] u = 0">
+<img src="https://render.githubusercontent.com/render/math?math=\left[ \frac{\partial}{\partial t} - D \cdot \frac{\partial^2}{\partial x^2} \right] u = L [u] = f(x,t)">
 
+One can also think of an inverse operator <img src="https://render.githubusercontent.com/render/math?math=L ^{-1} \, : f(x,t) \rightarrow u(x,t)"> as one that maps a source *f(x,t)* to a distribution of the matter *u(x,t)*.
 
-If we had a source of the substance (or particles) $f(x)$, we can set left-hand side to it:
-
-<img src="https://render.githubusercontent.com/render/math?math=\left[ \frac{\partial}{\partial t} - D \cdot \frac{\partial^2}{\partial x^2} \right] u = f(x,t)">
-
+Additionally, boundary conditions need to be specified, but we shall omit them for now.
 
 # Solving the Diffusion Equation
 
@@ -23,16 +33,21 @@ We will do it by using [Green's functions](https://en.wikipedia.org/wiki/Green%2
 
 <img src="https://render.githubusercontent.com/render/math?math=L [G(x, t)] = \delta(x, t)">
 
+Or in other words, Green function is an *impulse response function* [a natural-domain counterpart of a *transfer function*](https://en.wikipedia.org/wiki/Transfer_function) of diffusion, i.e., a distribution that diffusion creates out of a Dirac delta spike:
+
+<img src="https://render.githubusercontent.com/render/math?math=L^{-1} \,: \delta(x, t) \rightarrow G(x, t)">
+
+
 In our case <img src="https://render.githubusercontent.com/render/math?math=L = \frac{\partial}{\partial t} - D \cdot \frac{\partial^2}{\partial x^2}">
 
-After we find a Green function to our problem, the promise is that we will be able to obtain a solution by convolving our source (or sink) function:
+Green function allows one to obtain a solution by convolution with the source (or sink) function:
 
 <img src="https://render.githubusercontent.com/render/math?math=u(x,t) = G(.,.) * f(x,t)">
 
 A solution is a generalized (i.e. discontinuous) Green function. In our case, we shall assume an inifinite-space domain, i.e. our space is not confined and thus the substance won't be accumulating within some boundaries.
 For these conditions we will have:
 
-<img src="https://render.githubusercontent.com/render/math?math=\Theta(t)\left(\frac{1}{4\pi kt}\right)^{d/2} e^{-r^2/4kt}">
+<img src="https://render.githubusercontent.com/render/math?math=H(t)\left(\frac{1}{4\pi kt}\right)^{d/2} e^{-r^2/4kt}">
 
 where *d* is the dimensionality of the space (e.g. *d=3* for 3D).
 
