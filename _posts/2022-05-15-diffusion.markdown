@@ -1,5 +1,5 @@
 # Diffusion Probability Models behind DALL-E2
-I decided to write this blog while on my stay in Switzerland because (1) DALL-E2 is cool and I wanted to understand it better (2) I studied diffusion modelling here a while ago and I believe diffusion is a cool model, and (3) the ideas behind this paper I cool but need some time to understand and I wanted to share my path to getting it.
+I decided to write this blog while on my stay in Switzerland because (1) DALL-E2 is cool and I wanted to understand it better (2) a while ago I studied diffusion in my grad school here in Switzerland and I think it's a cool topic, and (3) the ideas behind this paper I cool but need some time to understand and I wanted to share my path to getting it.
 
 # References
 1. Sohl-Dickstein, Weiss, Maheswaranathan, Ganguli (2015) Deep Unsupervised Learning using Nonequilibrium Thermodynamics, [Arxiv](https://arxiv.org/pdf/1503.03585.pdf)
